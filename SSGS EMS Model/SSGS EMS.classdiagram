@@ -1,0 +1,582 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/UseCaseModel" xmlns:dm11="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" dslVersion="1.0.0.0" Id="49ee2c8e-5835-4d21-a4df-1ab11370926f" name="SSGS EMS" linkedPackageId="bf404fa7-3d5f-4be6-a68c-62f1db74f915" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="86da1cc0-4f99-4d9e-ab81-4210bfcdb4c2" name="Employee" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="52edc52b-a3ee-4d43-a32d-f4199f9f16d9" />
+        <targetEnds>
+          <association Id="8cdee8e6-7b48-4a69-8d12-82e78dc7b3a6" isDerived="false" sourceEndRoleName="Employee" targetEndRoleName="EmployeeOptionalInfo" isLeaf="false" isAbstract="false">
+            <classMoniker Id="d1f08126-6302-4000-846f-209b9c39b6f8" LastKnownName="EmployeeOptionalInfo" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="eef3250c-f5e8-4fa1-8988-6b014bec9c7a" name="Employee" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="77e52a3a-b2db-458b-9500-2ec7a88ef31e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="362a27e9-a6c4-4db0-9e0e-d34cff6ce61f" name="EmployeeOptionalInfo" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="cc7b85ad-f011-4378-bfb4-d1c66a235b93" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="0678bbfa-90d2-4c6c-914a-706e9fdc4e86" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="e2a67126-9afd-424d-bc7b-1fb5e8a23232" name="EmpId" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="82d48d50-61c5-4fa7-a93d-e34d7056ebcb" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="bed1c3e4-d733-4db6-975d-9b9105a635a4" LastKnownName="Integer" />
+            </type_NamedElement>
+          </property>
+          <property Id="966b7291-d7c4-4ccc-95c8-c73cd9aef104" name="EmpFirstName" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="3f468ef5-a902-4ff9-87cb-21afab61fb62" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="20a9b666-eede-4cae-aa8f-ed2cf0615b5e" LastKnownName="String" />
+            </type_NamedElement>
+          </property>
+          <property Id="fabe6eea-cca9-4f7e-af56-456c8fe0a1ee" name="EmpLastName" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="8e0c9069-cf2d-4858-bb8b-3d6822d16122" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="40b2c79c-583a-4be2-b0ed-7ef180a08705" LastKnownName="String" />
+            </type_NamedElement>
+          </property>
+          <property Id="8a7ece98-04d7-4dfb-b0a2-9532ea63ed3b" name="EmpDesignation" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="2edef09b-93ee-41eb-af58-3e8d42b66de2" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="b833172d-bbcb-4378-8316-bbb039a77d79" LastKnownName="String" />
+            </type_NamedElement>
+          </property>
+          <property Id="6da1fc0c-3798-43fd-b7aa-1393dcecb81a" name="EmpDepartment" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="b9a7353f-e76b-4091-a1f1-4cec5d191f96" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="8a773d41-15e0-4f93-b5d8-87dd60a04b9d" LastKnownName="String" />
+            </type_NamedElement>
+          </property>
+          <property Id="44f45d2a-4bec-4c77-8eff-4650c5dc97db" name="EmpReportsTo" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="161d3ae2-4fbb-4d4d-8b43-494ab262f256" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="e57338cc-a71e-48a6-86bb-32b4cad47f57" LastKnownName="String" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="bed1c3e4-d733-4db6-975d-9b9105a635a4" name="Integer" isAbstract="false" isLeaf="false" cachedFullName="Integer">
+        <elementDefinition Id="220a3521-e091-4221-bae9-3ef9018e845c" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="20a9b666-eede-4cae-aa8f-ed2cf0615b5e" name="String" isAbstract="false" isLeaf="false" cachedFullName="String">
+        <elementDefinition Id="59259974-6d55-42c6-b7bd-763d77ac8ef9" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="40b2c79c-583a-4be2-b0ed-7ef180a08705" name="String" isAbstract="false" isLeaf="false" cachedFullName="String">
+        <elementDefinition Id="59259974-6d55-42c6-b7bd-763d77ac8ef9" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="b833172d-bbcb-4378-8316-bbb039a77d79" name="String" isAbstract="false" isLeaf="false" cachedFullName="String">
+        <elementDefinition Id="59259974-6d55-42c6-b7bd-763d77ac8ef9" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="8a773d41-15e0-4f93-b5d8-87dd60a04b9d" name="String" isAbstract="false" isLeaf="false" cachedFullName="String">
+        <elementDefinition Id="59259974-6d55-42c6-b7bd-763d77ac8ef9" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="e57338cc-a71e-48a6-86bb-32b4cad47f57" name="String" isAbstract="false" isLeaf="false" cachedFullName="String">
+        <elementDefinition Id="59259974-6d55-42c6-b7bd-763d77ac8ef9" />
+      </referencedType>
+    </packageHasNamedElement>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="d1f08126-6302-4000-846f-209b9c39b6f8" name="EmployeeOptionalInfo" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="e603af6a-2b47-4422-b0c3-d3e65f4c0695" />
+        <ownedAttributesInternal>
+          <property Id="20961169-2080-408c-8c2b-67260306cde1" name="EmpId" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="92e1bbfe-5fa5-431e-b266-77f17798ea81" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="ddf207be-ff1e-47a3-91ac-39eba21b79fd" LastKnownName="Integer" />
+            </type_NamedElement>
+          </property>
+          <property Id="3467250f-9b5c-4f7a-86c7-718e9b9b0695" name="EmpEduDetails" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="31f30434-359f-4580-b2c5-9c27ac814f2c" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="d8557cae-4e12-4d3b-a7c4-49a4ba8a7136" LastKnownName="String" />
+            </type_NamedElement>
+          </property>
+          <property Id="ab1d2276-2222-4c6f-befc-96287ab30d2f" name="EmpFamilyInfo" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="fdfda93e-80ef-4aeb-91fb-a5f20d788b56" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="d969b41e-2fea-4cfa-8ce3-72995e293922" LastKnownName="String" />
+            </type_NamedElement>
+          </property>
+          <property Id="70e43c88-c64b-447d-b06a-afb3b86aac20" name="EmpHobbies" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="da65c4b9-dcc7-43d0-9e2a-4a62218947c6" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="0919419d-18d7-45cd-992c-d4a51398269c" LastKnownName="String" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="ddf207be-ff1e-47a3-91ac-39eba21b79fd" name="Integer" isAbstract="false" isLeaf="false" cachedFullName="Integer">
+        <elementDefinition Id="220a3521-e091-4221-bae9-3ef9018e845c" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="d8557cae-4e12-4d3b-a7c4-49a4ba8a7136" name="String" isAbstract="false" isLeaf="false" cachedFullName="String">
+        <elementDefinition Id="59259974-6d55-42c6-b7bd-763d77ac8ef9" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="d969b41e-2fea-4cfa-8ce3-72995e293922" name="String" isAbstract="false" isLeaf="false" cachedFullName="String">
+        <elementDefinition Id="59259974-6d55-42c6-b7bd-763d77ac8ef9" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="0919419d-18d7-45cd-992c-d4a51398269c" name="String" isAbstract="false" isLeaf="false" cachedFullName="String">
+        <elementDefinition Id="59259974-6d55-42c6-b7bd-763d77ac8ef9" />
+      </referencedType>
+    </packageHasNamedElement>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="b9a84bcf-4cde-4585-9ad0-ef4bb4961426" name="Department" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="bf5b8b53-2ee3-4a05-b7db-ec9e109d4322" />
+        <targetEnds>
+          <association Id="70b9dc00-f720-4473-9b28-ff82c885804d" isDerived="false" sourceEndRoleName="Department" targetEndRoleName="Employee" isLeaf="false" isAbstract="false">
+            <classMoniker Id="86da1cc0-4f99-4d9e-ab81-4210bfcdb4c2" LastKnownName="Employee" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="8d153a1f-78c3-4c6b-b6fc-df4985917705" name="Department" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="eff33c49-68fc-4cfc-8be4-50e483116f25" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="1c144e06-d6c6-467c-bda5-6222dc68b10e" name="Employee" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="true">
+                  <lowerValueInternal>
+                    <literalString Id="00f705a0-5fde-4453-a0fc-dd27cab6e01b" name="Lower" value="*">
+                      <elementDefinition Id="aa0d36f5-3a84-483f-b977-0b4b9303e4ee" />
+                    </literalString>
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString Id="2a152304-2dd2-4ef9-a1e6-2fdd71980869" name="Upper" value="*">
+                      <elementDefinition Id="6a7e86bb-9e77-485c-91f1-32c1d1590e1a" />
+                    </literalString>
+                  </upperValueInternal>
+                  <elementDefinition Id="40fb05fa-275e-4909-8e61-923e8dc33de2" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="094cef79-8c1b-4de8-b2ad-7d7e229bda08" />
+          </association>
+        </targetEnds>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="e6696707-6e57-4265-82c3-0bac5322ae27" name="EMS_Business_Logic" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="46833916-4894-4fac-931e-a0158276b107" />
+        <suppliersInternal>
+          <dependency Id="557daf3b-fc7f-4fd5-b208-2c623f418ba4">
+            <classMoniker Id="79f5efe3-fa14-4786-864a-7f567febc0fe" LastKnownName="Validator" />
+            <elementDefinition Id="73f482d0-6878-44ea-8af7-a238bbcb4c86" />
+          </dependency>
+        </suppliersInternal>
+        <targetEnds>
+          <association Id="0484e6d2-311c-4b8e-b3d7-79c5f00b2bf3" isDerived="false" sourceEndRoleName="EMS_Business_Logic" targetEndRoleName="Employee" isLeaf="false" isAbstract="false">
+            <classMoniker Id="86da1cc0-4f99-4d9e-ab81-4210bfcdb4c2" LastKnownName="Employee" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="f709772a-271d-4674-9f15-5280945eb277" name="EMS_Business_Logic" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="4bdc2e21-a5f5-4c3c-8da4-5a6df88e8d37" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="515a880b-2511-4c77-87e9-00d010644ab5" name="Employee" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="8200aa44-483a-48df-a8b5-5d4201e43a02" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="6dbcae2a-b0f0-4600-9497-e0f20eeaf6a7" />
+          </association>
+          <association Id="7400b493-f9fb-4d8a-855c-04af44baefe7" isDerived="false" sourceEndRoleName="EMS_Business_Logic" targetEndRoleName="EMS_Data_Access_Class" isLeaf="false" isAbstract="false">
+            <classMoniker Id="2c4cbb31-eaf5-4b55-829f-c3f267f2bd65" LastKnownName="EMS_Data_Access_Class" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="e4ef9e96-52df-4cfb-92dd-9b3d1329c31e" name="EMS_Business_Logic" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="74607b7b-2844-46c4-b9e4-a9f44d62d319" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="be1fcfe8-5b0e-40eb-a991-9eaec795d73f" name="EMS_Data_Access_Class" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="f5fca2bf-df01-4042-ab4a-508140e17af4" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="87c00bc7-d3bd-4778-b275-8ac52f63704b" />
+          </association>
+        </targetEnds>
+        <ownedOperationsInternal>
+          <operation Id="969d879f-1c58-4559-8678-da9562aee394" name="GetEmployeeData" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="e03d5d4b-a292-481c-a736-fd5beec19b94" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="9ee1a8dd-b3d5-4e00-a010-8b28832714b1" name="EmpID" direction="In" isUnique="false">
+                  <elementDefinition Id="ceee834f-664e-497b-befe-ff5481846831" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="bed1c3e4-d733-4db6-975d-9b9105a635a4" LastKnownName="Integer" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="dc2a043c-9fcb-4814-a631-b6a1c7d03533" direction="Return">
+                  <elementDefinition Id="ab5acbab-f89e-47f2-8e7b-e2ba3a415935" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="9b269b0b-52a1-4301-b1a0-156c7dcb69d7" LastKnownName="Employee" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="bb744279-99b1-47a9-9f29-b8b7c3ac4b5e" name="SetEmployeeData" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="2446d587-976b-43af-85c2-700fba125e51" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="78362521-548a-41a2-8eec-8e47585bfcfb" direction="Return">
+                  <elementDefinition Id="a525dde7-a78d-4968-912d-4ef68902cfa2" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="7971d424-e925-4413-8315-06a560fd8fd8" LastKnownName="Boolean" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="d1204e3e-4d5d-4852-9983-e87cd7cd89eb" name="Employee" direction="In">
+                  <elementDefinition Id="e6e8c72a-1ac6-4d7b-8cf0-d5b8f70bb486" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="9b269b0b-52a1-4301-b1a0-156c7dcb69d7" LastKnownName="Employee" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="b8353b56-6264-4a52-aac2-9fb98874bad2" name="GetEmployeeOptionalInfo" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="24f9f4f2-1189-463a-a7ef-f1e3c1390ac6" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="1c0c8fb1-2c41-4054-817c-053dffce937e" name="EmpId" direction="In">
+                  <elementDefinition Id="19153da2-5eca-4b1b-85ed-b13786acc7b0" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="bed1c3e4-d733-4db6-975d-9b9105a635a4" LastKnownName="Integer" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="8beb193c-3319-4d7d-b5e9-47c8e71655fa" direction="Return">
+                  <elementDefinition Id="4728765d-fe36-47d2-a097-82f2cb58c027" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="92b904c1-8ba9-403d-b819-0baebda191bd" LastKnownName="EmployeeOptionalInfo" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="9b269b0b-52a1-4301-b1a0-156c7dcb69d7" name="Employee" isAbstract="false" isLeaf="false" cachedFullName="SSGS EMS Model::Employee">
+        <elementDefinition Id="52edc52b-a3ee-4d43-a32d-f4199f9f16d9" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="7971d424-e925-4413-8315-06a560fd8fd8" name="Boolean" isAbstract="false" isLeaf="false" cachedFullName="Boolean">
+        <elementDefinition Id="8943dc84-709e-4f62-b15a-a3273aa6f165" />
+      </referencedType>
+    </packageHasNamedElement>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="79f5efe3-fa14-4786-864a-7f567febc0fe" name="Validator" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="33eb2bb9-aa63-4a6c-a0fb-28055f431208" />
+        <suppliersInternal>
+          <interfaceRealization Id="8e077205-6595-45cd-bd26-f5351b629f33">
+            <interfaceMoniker Id="613d9033-9bf5-412a-a107-5b947b85d5e5" LastKnownName="IValidate" />
+            <elementDefinition Id="b6477c43-0989-4351-8103-a6a8eec0f779" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation Id="3de2e38d-672a-4a0b-b2d9-c531a74fb5a2" name="ValidateEmployeeData" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="3d251356-ac99-4f62-97a1-f140b3456013" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="f8679adf-0db4-439b-848e-e66468a230fa" name="Employee" direction="In">
+                  <elementDefinition Id="a6df346d-1a4a-4e23-89d1-8bfdb202dc0b" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="9b269b0b-52a1-4301-b1a0-156c7dcb69d7" LastKnownName="Employee" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="62b1c3a6-6b5b-4851-acfe-9d3d97116685" direction="Return">
+                  <elementDefinition Id="a8720a75-40f8-4842-861e-83060954b263" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="962c257a-7722-4636-8d65-6df41fe80c7c" LastKnownName="Boolean" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="9ac15370-33f9-4197-956d-93b2fe929acd" name="ValidateEmployee" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="9d72f147-ab79-4624-8d38-5c0a384bbc3f" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="6f7015be-0336-4f80-ac35-0820ac8e8141" name="Employee" direction="In">
+                  <elementDefinition Id="f43f4983-a667-475d-8b4b-9f3b741fa024" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="9b269b0b-52a1-4301-b1a0-156c7dcb69d7" LastKnownName="Employee" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="962c257a-7722-4636-8d65-6df41fe80c7c" name="Boolean" isAbstract="false" isLeaf="false" cachedFullName="Boolean">
+        <elementDefinition Id="8943dc84-709e-4f62-b15a-a3273aa6f165" />
+      </referencedType>
+    </packageHasNamedElement>
+    <logicalClassDesignerModelHasTypes>
+      <Interface Id="613d9033-9bf5-412a-a107-5b947b85d5e5" name="IValidate" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="fde927b6-2917-4165-be16-e56ec03a85ea" />
+        <ownedOperations>
+          <operation Id="774efb49-8661-4f52-971f-7b7f7c2f8f0e" name="ValidateEmployee" isLeaf="false" isStatic="false" isAbstract="true" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="ef46f33b-3425-4995-9dc9-e0e2bece7cc9" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="bf0bc7dd-3f02-4021-8755-5be7661bc105" name="Employee" direction="In">
+                  <elementDefinition Id="8a3f986d-6878-4f01-8c95-fbecf4255cd1" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="9b269b0b-52a1-4301-b1a0-156c7dcb69d7" LastKnownName="Employee" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperations>
+      </Interface>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="d0ef20c7-f0d6-428a-9ea9-3d818dd25e10" name="HR Person" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="febcf1f3-f2a7-466a-a8da-faaadb3aeaab" />
+        <generalsInternal>
+          <generalization Id="4d19e6ae-e942-45e5-b489-6a622c4628d2" isSubstitutable="false">
+            <classMoniker Id="86da1cc0-4f99-4d9e-ab81-4210bfcdb4c2" LastKnownName="Employee" />
+            <elementDefinition Id="47b8dc72-666e-4ab9-a0eb-87810e7e7ced" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation Id="bd73f7e3-f9a5-4119-b2d7-17d4291e61bd" name="AddEmployee" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="18a3608f-056c-4e36-820a-f19c607a2fdf" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="7c769a8a-1baa-45b6-996b-82ad047cec7e" name="Employee" direction="In">
+                  <elementDefinition Id="8275c517-2004-4291-afa5-3aa5f7364ba4" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="9b269b0b-52a1-4301-b1a0-156c7dcb69d7" LastKnownName="Employee" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="c756048b-8a32-40d0-b942-bf56399598a4" direction="Return">
+                  <elementDefinition Id="1e17d917-b02a-4614-a612-c35515c7f2f4" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="fa983452-9f1e-4f5d-852d-2deedf5e7eb7" LastKnownName="Boolean" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="fa983452-9f1e-4f5d-852d-2deedf5e7eb7" name="Boolean" isAbstract="false" isLeaf="false" cachedFullName="Boolean">
+        <elementDefinition Id="8943dc84-709e-4f62-b15a-a3273aa6f165" />
+      </referencedType>
+    </packageHasNamedElement>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="2c4cbb31-eaf5-4b55-829f-c3f267f2bd65" name="EMS_Data_Access_Class" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="ee14b2dd-5152-46b8-9fc4-f8934298339b" />
+        <targetEnds>
+          <association Id="39ad5d1b-fe73-4644-a40a-23779b09aeb7" isDerived="false" sourceEndRoleName="EMS_Data_Access_Class" targetEndRoleName="Employee" isLeaf="false" isAbstract="false">
+            <classMoniker Id="86da1cc0-4f99-4d9e-ab81-4210bfcdb4c2" LastKnownName="Employee" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="7ded6515-648c-46aa-a735-db9ec8a7458b" name="EMS_Data_Access_Class" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="ae383cde-01e2-48f7-afd7-20ba416fb9a8" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="dc2bca9a-f3c1-4a73-8b04-661d7432bca3" name="Employee" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="9ffbe673-b3ba-4dd0-ae9a-f7a188530e42" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="ccfb3a3e-483f-427e-a4ae-2e93a6575456" />
+          </association>
+        </targetEnds>
+        <ownedOperationsInternal>
+          <operation Id="c6eff091-b8d4-42c2-aa65-eefab361c826" name="AddEmp" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="aa4114d4-3696-4eb9-a7fc-150ad86590b4" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="367ceca3-97f9-4971-a295-5671d81fbe49" name="Employee" direction="In">
+                  <elementDefinition Id="d9c686a4-b3ac-4975-98f8-0983404760b7" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="9b269b0b-52a1-4301-b1a0-156c7dcb69d7" LastKnownName="Employee" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="1e22162f-673a-45e9-8a46-d40d496d71ed" direction="Return">
+                  <elementDefinition Id="7e9df8e4-25c0-4f99-8665-ede42d27f26b" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="ea28bb8b-6ec0-46ca-9c38-349e7fde01b8" LastKnownName="Boolean" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="0cbe402d-a3c2-4a9d-a647-7ff924be7e6a" name="GetBasicEmployeeData" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="0a363b3b-d26d-471d-9547-405fed3c8300" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="3ee8f11a-814a-4376-95c0-90f1a7b07c44" name="EmpId" direction="In">
+                  <elementDefinition Id="7be5586e-8503-468d-962c-a5f364c976c8" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="bed1c3e4-d733-4db6-975d-9b9105a635a4" LastKnownName="Integer" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="7e5a0a5c-f352-466e-b38f-b604981cb251" direction="Return">
+                  <elementDefinition Id="bba6d740-3b29-43e6-8aad-6a91ac7a2a5e" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="3cfefd89-87ff-4b78-bdab-4df722d41239" LastKnownName="Employee" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="7e8cd24d-cbb2-4dfa-aa9d-6ec6e0ba32de" name="GetOptionalEmployeeData" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="bab452de-5a60-4a5c-a69c-42227e81da92" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="91f3db3a-c87e-4305-8ce9-abe99d27b327" name="EmpId" direction="In">
+                  <elementDefinition Id="3ab1cb84-f021-4462-8400-bfb0abe9b1fb" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="bed1c3e4-d733-4db6-975d-9b9105a635a4" LastKnownName="Integer" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="877bd5fa-8b27-4de1-84b5-679917063ba2" direction="Return">
+                  <elementDefinition Id="67df895e-d43c-48fe-900e-d92ba3a8d0b9" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="ab4398d9-64be-4456-83e2-3cfacce00c27" LastKnownName="EmployeeOptionalInfo" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="ea28bb8b-6ec0-46ca-9c38-349e7fde01b8" name="Boolean" isAbstract="false" isLeaf="false" cachedFullName="Boolean">
+        <elementDefinition Id="8943dc84-709e-4f62-b15a-a3273aa6f165" />
+      </referencedType>
+    </packageHasNamedElement>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="9b57666f-3ed9-4f4b-8e83-dd29f61576c1" name="Default" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="18372c24-9871-4cec-8aef-ae6340cd5b08" />
+        <targetEnds>
+          <association Id="e8e7de85-0855-4eb7-a737-d8c6ca5188df" isDerived="false" sourceEndRoleName="Default" targetEndRoleName="EMS_Business_Logic" isLeaf="false" isAbstract="false">
+            <classMoniker Id="e6696707-6e57-4265-82c3-0bac5322ae27" LastKnownName="EMS_Business_Logic" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="228f213e-a3b2-4217-ad90-fa0f3cc718c4" name="Default" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="0b326676-1dbf-4087-8486-2ef1067547da" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="3b1fc662-0399-4071-b45e-59bf19440b3d" name="EMS_Business_Logic" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="029e26b2-4594-4f1d-a1c3-1c40df608f16" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="be7a9bfc-ce94-4150-b1fb-28e3b5522ba8" />
+          </association>
+        </targetEnds>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="e42129f4-94ad-4305-ab35-f0db4eae9091" name="ShowEmployeeData" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="68289910-24bd-4c9e-b9a0-5bef5d09e6db" />
+        <targetEnds>
+          <association Id="b0af0ab7-09ea-4db9-957a-bc6eee2b1ce3" isDerived="false" sourceEndRoleName="ShowEmployeeData" targetEndRoleName="EMS_Business_Logic" isLeaf="false" isAbstract="false">
+            <classMoniker Id="e6696707-6e57-4265-82c3-0bac5322ae27" LastKnownName="EMS_Business_Logic" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="04fc8240-274f-4b92-9929-1ba93e7302fb" name="ShowEmployeeData" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="5d79854d-a0c5-4078-bfa4-b20317e7ccaa" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="f3aa9046-96a0-4ef1-adf1-cdac14e3ebd6" name="EMS_Business_Logic" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="7e29650f-d0b2-4a37-88c1-707f90869edc" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="7f71b7e9-56ac-4e7c-a8ac-75e5ca6e819a" />
+          </association>
+        </targetEnds>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="3cfefd89-87ff-4b78-bdab-4df722d41239" name="Employee" isAbstract="false" isLeaf="false" cachedFullName="SSGS EMS Model::Employee">
+        <elementDefinition Id="52edc52b-a3ee-4d43-a32d-f4199f9f16d9" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="ab4398d9-64be-4456-83e2-3cfacce00c27" name="EmployeeOptionalInfo" isAbstract="false" isLeaf="false" cachedFullName="SSGS EMS Model::EmployeeOptionalInfo">
+        <elementDefinition Id="e603af6a-2b47-4422-b0c3-d3e65f4c0695" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="92b904c1-8ba9-403d-b819-0baebda191bd" name="EmployeeOptionalInfo" isAbstract="false" isLeaf="false" cachedFullName="SSGS EMS Model::EmployeeOptionalInfo">
+        <elementDefinition Id="e603af6a-2b47-4422-b0c3-d3e65f4c0695" />
+      </referencedType>
+    </packageHasNamedElement>
+  </packagedElements>
+  <package Id="bf404fa7-3d5f-4be6-a68c-62f1db74f915" name="SSGS EMS Model">
+    <elementDefinition Id="c80a8dc3-d62c-4872-97f1-4568d7dbfa8d" />
+    <profileInstances>
+      <packageHasProfileInstances Id="1819fe3c-f4fd-4d35-80de-029d01193c7a">
+        <profileInstance Id="8c509df5-7101-4a8c-886c-09d8c94e78d4" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="35a54b5b-f346-43ec-8337-e729c4b479b5">
+        <profileInstance Id="1d8a7a5f-893a-490d-9143-4c70d9dcf533" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</logicalClassDesignerModel>

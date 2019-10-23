@@ -1,0 +1,45 @@
+C:\SSGS EMS\SSGS EMS Scrum\SSGS EMS Model\bin\Debug\SSGS EMS Business Logic.dll
+C:\SSGS EMS\SSGS EMS Scrum\SSGS EMS Model\bin\Debug\SSGS EMS Data Access.dll
+C:\SSGS EMS\SSGS EMS Scrum\SSGS EMS Model\bin\Debug\SSGS EMS Web App.dll
+C:\SSGS EMS\SSGS EMS Scrum\SSGS EMS Model\bin\Debug\SSGS EMS Entities.dll
+C:\SSGS EMS\SSGS EMS Scrum\SSGS EMS Model\bin\Debug\SSGS Password Validator.dll
+C:\SSGS EMS\SSGS EMS Scrum\SSGS EMS Model\bin\Debug\SSGS EMS Business Logic.pdb
+C:\SSGS EMS\SSGS EMS Scrum\SSGS EMS Model\bin\Debug\SSGS EMS Data Access.pdb
+C:\SSGS EMS\SSGS EMS Scrum\SSGS EMS Model\bin\Debug\SSGS EMS Web App.pdb
+C:\SSGS EMS\SSGS EMS Scrum\SSGS EMS Model\bin\Debug\SSGS EMS Entities.pdb
+C:\SSGS EMS\SSGS EMS Scrum\SSGS EMS Model\bin\Debug\SSGS Password Validator.pdb
+C:\SSGS EMS\SSGS EMS Scrum\SSGS EMS Model\obj\Debug\SSGS EMS Model.modelprojResolveAssemblyReference.cache
+C:\SSGS EMS\SSGS EMS Scrum\SSGS EMS Model\bin\Debug\SSGS EMS WinForm App.exe
+C:\SSGS EMS\SSGS EMS Scrum\SSGS EMS Model\bin\Debug\SSGS EMS WinForm App.pdb
+C:\SSGS EMS\SSGS EMS Scrum\SSGS EMS Model\bin\Debug\SSGS EMS Model.Results.dgml
+C:\SSGS EMS\SSGS EMS Scrum\SSGS EMS Model\obj\Debug\LayerDiagram1.layerdiagram.dgql
+C:\SSGS EMS\SSGS EMS Scrum\SSGS EMS Model\obj\Debug\SSGS EMS.layerdiagram.dgql
+C:\SSGS EMS\SSGS EMS Scrum\SSGS EMS Model\obj\Debug\LayerDiagram1.layerdiagram.dgml
+C:\SSGS EMS\SSGS EMS Scrum\SSGS EMS Model\obj\Debug\SSGS EMS.layerdiagram.dgml
+C:\SSGS EMS\SSGS EMS Scrum\SSGS EMS Model\obj\Debug\Initial.dgml
+C:\SSGS EMS\SSGS EMS Scrum\SSGS EMS Model\obj\Debug\Initial.dgml.back
+C:\SSGS EMS\SSGS EMS Scrum\SSGS EMS Model\obj\Debug\SSGS EMS Business Logic.dll.dgql
+C:\SSGS EMS\SSGS EMS Scrum\SSGS EMS Model\obj\Debug\SSGS EMS Data Access.dll.dgql
+C:\SSGS EMS\SSGS EMS Scrum\SSGS EMS Model\obj\Debug\SSGS EMS Web App.dll.dgql
+C:\SSGS EMS\SSGS EMS Scrum\SSGS EMS Model\obj\Debug\SSGS EMS WinForm App.exe.dgql
+C:\SSGS EMS\SSGS EMS Scrum\SSGS EMS Model\obj\Debug\SSGS EMS Business Logic.dll.dgml
+C:\SSGS EMS\SSGS EMS Scrum\SSGS EMS Model\obj\Debug\SSGS EMS Data Access.dll.dgml
+C:\SSGS EMS\SSGS EMS Scrum\SSGS EMS Model\obj\Debug\SSGS EMS Web App.dll.dgml
+C:\SSGS EMS\SSGS EMS Scrum\SSGS EMS Model\obj\Debug\SSGS EMS WinForm App.exe.dgml
+C:\SSGS EMS\SSGS EMS Scrum\SSGS EMS Model\obj\Debug\Validate.dgql
+C:\SSGS EMS\SSGS EMS Scrum\SSGS EMS Model\obj\Debug\Validated.dgml
+C:\SSGS EMS\SSGS EMS Scrum\SSGS EMS Model\obj\Debug\LayerDiagram2.layerdiagram.dgql
+C:\SSGS EMS\SSGS EMS Scrum\SSGS EMS Model\obj\Debug\LayerDiagram2.layerdiagram.dgml
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\SSGS EMS\SSGS EMS Model\bin\Debug\SSGS EMS Business Logic.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\SSGS EMS\SSGS EMS Model\bin\Debug\SSGS EMS Data Access.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\SSGS EMS\SSGS EMS Model\bin\Debug\SSGS EMS Web App.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\SSGS EMS\SSGS EMS Model\bin\Debug\SSGS EMS WinForm App.exe
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\SSGS EMS\SSGS EMS Model\bin\Debug\SSGS EMS Entities.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\SSGS EMS\SSGS EMS Model\bin\Debug\SSGS Password Validator.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\SSGS EMS\SSGS EMS Model\bin\Debug\SSGS EMS Business Logic.pdb
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\SSGS EMS\SSGS EMS Model\bin\Debug\SSGS EMS Data Access.pdb
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\SSGS EMS\SSGS EMS Model\bin\Debug\SSGS EMS Web App.pdb
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\SSGS EMS\SSGS EMS Model\bin\Debug\SSGS EMS WinForm App.pdb
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\SSGS EMS\SSGS EMS Model\bin\Debug\SSGS EMS Entities.pdb
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\SSGS EMS\SSGS EMS Model\bin\Debug\SSGS Password Validator.pdb
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\SSGS EMS\SSGS EMS Model\obj\Debug\SSGS EMS Model.modelprojResolveAssemblyReference.cache

@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<activityRootModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/UseCaseModel" xmlns:dm11="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm12="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" dslVersion="1.0.0.0" Id="40258420-7c64-41f8-91c2-8e4f03195acc" name="SSGS EMS" linkedPackageId="bea7de6b-75d1-4ef1-8222-5058b7958018" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/ActivityDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="db594861-dc13-403b-a356-37c323ba7043">
+      <profileInstance Id="fdfa6e2a-35ad-4526-831e-2df7b6f2129b" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="b6049021-b91a-4300-9922-0d5266d085e2">
+      <profileInstance Id="6432cc7d-3e94-440b-8863-af3e34fe72ca" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <activityRootModelHasActivity>
+      <activity Id="61eaee45-2933-423a-bb98-0a4e56f51c84" name="SSGS EMS" isAbstract="false" isLeaf="false" isActiveClass="false" isReentrant="false" isReadOnly="false" isSingleExecution="false">
+        <elementDefinition Id="0ab0054e-a972-4dfb-930c-68f41184a80c" />
+        <nodes>
+          <initialNode Id="6dcdb6dd-fe6f-4e75-b848-0e511329c001" name="Initial1" isLeaf="false">
+            <elementDefinition Id="626a5e95-e444-47e7-9aad-54051859fe98" />
+            <flowNodeTargets>
+              <controlFlow Id="3af2c610-1065-4d9f-8828-daa2a02c86b1" isLeaf="false">
+                <opaqueActionMoniker Id="ef28e75e-de52-4aa2-a0b2-9102c756717b" LastKnownName="Open Default Page" />
+                <elementDefinition Id="e88e7710-a0d8-4261-9e70-38e4241c717c" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <opaqueAction Id="ef28e75e-de52-4aa2-a0b2-9102c756717b" name="Open Default Page" isLeaf="false">
+            <elementDefinition Id="f8ffe07e-8f0f-497a-b508-22e99b84bc64" />
+            <flowNodeTargets>
+              <controlFlow Id="f4f30e06-e76c-43bd-b5d8-d0db97c11448" isLeaf="false">
+                <opaqueActionMoniker Id="f682fa4a-cb67-4759-80c2-230011f24c3b" LastKnownName="Click on the link to open Show Employee Info page" />
+                <elementDefinition Id="a587f7f3-a4d7-42c0-9a7c-9da3077527b5" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="f682fa4a-cb67-4759-80c2-230011f24c3b" name="Click on the link to open Show Employee Info page" isLeaf="false">
+            <elementDefinition Id="9e032970-af87-4071-8543-3b3c6163d609" />
+            <flowNodeTargets>
+              <controlFlow Id="e9ebb7b5-bc2d-4f45-a485-596ffedd3259" isLeaf="false">
+                <opaqueActionMoniker Id="9dc12bc4-6d75-459f-a78f-538c67f0f9eb" LastKnownName="Enter Employee ID and Click Get Info button" />
+                <elementDefinition Id="7f785f89-d7d8-46b6-a6ed-f34f7f8f3017" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="9dc12bc4-6d75-459f-a78f-538c67f0f9eb" name="Enter Employee ID and Click Get Info button" isLeaf="false">
+            <elementDefinition Id="294a40bd-5192-405d-a65e-fae208134eb0" />
+            <flowNodeTargets>
+              <controlFlow Id="d3bb1268-0531-401e-95a5-5b58cd7a1613" isLeaf="false">
+                <decisionNodeMoniker Id="a82f3144-c8b1-4d0d-adaf-66fa9a244dab" LastKnownName="Need more information?" />
+                <elementDefinition Id="5d6b2a10-b27b-423f-87eb-ab0641fa8dbe" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <decisionNode Id="a82f3144-c8b1-4d0d-adaf-66fa9a244dab" name="Need more information?" isLeaf="false">
+            <elementDefinition Id="e2101a8b-4422-48f2-a2d6-516493d861d2" />
+            <flowNodeTargets>
+              <controlFlow Id="13d73b57-29ff-4a13-b66a-30f1498db0c1" isLeaf="false">
+                <opaqueActionMoniker Id="f866ff51-71fb-40dc-ad6a-55c99078b2ba" LastKnownName="Get More Info" />
+                <elementDefinition Id="959af1b1-0637-4087-b096-aabd516cc79c" />
+              </controlFlow>
+              <controlFlow Id="d864a943-1909-4ea8-888f-817ab96eb8c0" isLeaf="false">
+                <opaqueActionMoniker Id="a72ed9dc-0df0-4c9d-9a92-6758b667cc5d" LastKnownName="Edit Info" />
+                <elementDefinition Id="defea6e6-93d2-4efa-8d7d-ebf2b0fc8560" />
+              </controlFlow>
+              <controlFlow Id="4aa7fd3c-fe03-4d06-98e7-98b78add0e72" isLeaf="false">
+                <opaqueActionMoniker Id="d8b71f57-348a-42f2-9ef3-817bf0959ef8" LastKnownName="More Info Not Required" />
+                <elementDefinition Id="d6ff63d0-d189-4357-a54f-2f95cbda86f2" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <opaqueAction Id="f866ff51-71fb-40dc-ad6a-55c99078b2ba" name="Get More Info" isLeaf="false">
+            <elementDefinition Id="f09594f6-2c4e-4830-bb4a-e69d6018b65f" />
+            <flowNodeTargets>
+              <controlFlow Id="1a51cfc5-47e8-4702-a041-088d3050118e" isLeaf="false">
+                <opaqueActionMoniker Id="47d1e498-03a7-4671-978e-50dd8850b011" LastKnownName="Click button to get more info" />
+                <elementDefinition Id="0c016b30-2614-41c9-b53c-8a96e60e31cb" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="a72ed9dc-0df0-4c9d-9a92-6758b667cc5d" name="Edit Info" isLeaf="false">
+            <elementDefinition Id="b28ba0b2-8889-4636-b05b-a34f30c83e81" />
+            <flowNodeTargets>
+              <controlFlow Id="7802ac45-fb92-4452-b749-c7e46e3ff560" isLeaf="false">
+                <opaqueActionMoniker Id="6755b8f1-f32e-43f4-ae2c-fe133eddaf16" LastKnownName="Login with HR Person's credentials" />
+                <elementDefinition Id="971d299e-2ad1-4d9f-bb7f-4cd909829a7e" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="d8b71f57-348a-42f2-9ef3-817bf0959ef8" name="More Info Not Required" isLeaf="false">
+            <elementDefinition Id="9773d0f3-e15d-460d-9e34-5d92c84e9415" />
+            <flowNodeTargets>
+              <controlFlow Id="ce95637d-9ee6-4e27-b35b-a0f70a598aeb" isLeaf="false">
+                <opaqueActionMoniker Id="e8bf6db7-bfca-4b13-bc38-38137357ab7b" LastKnownName="Close browser" />
+                <elementDefinition Id="ba4609e0-873d-4351-8f72-a1952b45e4ab" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction Id="47d1e498-03a7-4671-978e-50dd8850b011" name="Click button to get more info" isLeaf="false">
+            <elementDefinition Id="d47a8979-86ab-427d-88aa-4d873db57d39" />
+          </opaqueAction>
+          <opaqueAction Id="6755b8f1-f32e-43f4-ae2c-fe133eddaf16" name="Login with HR Person's credentials" isLeaf="false">
+            <elementDefinition Id="fb904b84-f860-4567-b596-5756230aaa8d" />
+          </opaqueAction>
+          <opaqueAction Id="e8bf6db7-bfca-4b13-bc38-38137357ab7b" name="Close browser" isLeaf="false">
+            <elementDefinition Id="5bc5c58a-acbf-4183-adbe-85c7b02d654f" />
+          </opaqueAction>
+        </nodes>
+      </activity>
+    </activityRootModelHasActivity>
+  </packagedElements>
+  <package Id="bea7de6b-75d1-4ef1-8222-5058b7958018" name="SSGS EMS Model">
+    <elementDefinition Id="c80a8dc3-d62c-4872-97f1-4568d7dbfa8d" />
+  </package>
+</activityRootModel>

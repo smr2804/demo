@@ -1,0 +1,13 @@
+C:\SSGS EMS\SSGS EMS Scrum\SSGS EMS Entities\bin\Debug\SSGS EMS Entities.dll
+C:\SSGS EMS\SSGS EMS Scrum\SSGS EMS Entities\bin\Debug\SSGS EMS Entities.pdb
+C:\SSGS EMS\SSGS EMS Scrum\SSGS EMS Entities\obj\Debug\SSGS EMS Entities.dll
+C:\SSGS EMS\SSGS EMS Scrum\SSGS EMS Entities\obj\Debug\SSGS EMS Entities.pdb
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\SSGS EMS\SSGS EMS Entities\bin\Debug\SSGS EMS Entities.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\SSGS EMS\SSGS EMS Entities\bin\Debug\SSGS EMS Entities.pdb
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\SSGS EMS\SSGS EMS Entities\obj\Debug\SSGS EMS Entities.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\SSGS EMS\SSGS EMS Entities\obj\Debug\SSGS EMS Entities.pdb
+J:\Users\Subodh\Documents\Visual Studio 2017\Projects\SSGS EMS\SSGS EMS Entities\bin\Debug\SSGS EMS Entities.dll
+J:\Users\Subodh\Documents\Visual Studio 2017\Projects\SSGS EMS\SSGS EMS Entities\bin\Debug\SSGS EMS Entities.pdb
+J:\Users\Subodh\Documents\Visual Studio 2017\Projects\SSGS EMS\SSGS EMS Entities\obj\Debug\SSGS EMS Entities.csprojResolveAssemblyReference.cache
+J:\Users\Subodh\Documents\Visual Studio 2017\Projects\SSGS EMS\SSGS EMS Entities\obj\Debug\SSGS EMS Entities.dll
+J:\Users\Subodh\Documents\Visual Studio 2017\Projects\SSGS EMS\SSGS EMS Entities\obj\Debug\SSGS EMS Entities.pdb

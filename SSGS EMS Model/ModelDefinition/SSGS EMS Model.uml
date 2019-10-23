@@ -1,0 +1,2588 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm9="http://schemas.microsoft.com/dsltools/UseCaseModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm11="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner"
+  dslVersion="1.0.0.0"
+  Id="c80a8dc3-d62c-4872-97f1-4568d7dbfa8d"
+  name="SSGS EMS Model" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="639c9788-5590-40cd-bf40-824efbe18e95"
+      handle="%ssgs-tfs2013\DefaultCollection#3534a156-72f9-4bef-92a7-55ab81b44e29$18"
+      tag="Work Item Reference" />
+  </referencesInternal>
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">
+      <profileInstance
+        Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791"
+        name="StandardProfileL2" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="29349502-908c-4fda-9054-c48619c59ed0">
+      <profileInstance
+        Id="532ea607-fb19-44b8-8502-3351b05452be"
+        name="StandardProfileL3" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <actor
+        Id="32418b9b-d73f-4490-b32e-5e3c45556854"
+        name="Employee"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="cecf7731-75c3-49a4-b69b-20b7e2092bd5"
+            isDerived="false"
+            sourceEndRoleName="Employee"
+            targetEndRoleName="Views Details in the company records"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="ba3695ef-0e92-48cf-800c-402864a4f606"
+              LastKnownName="Views Details in the company records"
+              LastKnownLocation="SSGS EMS Model.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="cbbd8172-88d2-4ac8-bb20-058c355b7bea"
+                  name="Employee"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="5b8b786a-de45-4549-9871-1d79ba37149d"
+                  name="Views Details in the company records"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="33d52664-abe7-4005-813d-9aa3cd7cb75f"
+            isDerived="false"
+            sourceEndRoleName="Employee"
+            targetEndRoleName="Sucessfully Authenticates"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="537ed7f0-ce59-45b6-949e-27311631f95a"
+              LastKnownName="Sucessfully Authenticates"
+              LastKnownLocation="SSGS EMS Model.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="0b54f1fc-ab27-4ead-b4c0-d4e6235df01f"
+                  name="Employee"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="546f85aa-5a25-4b1d-b18e-3cef96475090"
+                  name="Sucessfully Authenticates"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="0b93d403-1509-4105-af65-9240d0b99fd3"
+            isDerived="false"
+            sourceEndRoleName="Employee"
+            targetEndRoleName="Edits Own Profile"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="53cf442b-f94f-467e-8936-8a8312e8d1b1"
+              LastKnownName="Edits Own Profile"
+              LastKnownLocation="SSGS EMS Model.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="5f946c9f-5f09-4c16-856f-442e46d5125b"
+                  name="Employee"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="f2f2f8ab-0c26-410c-8fe1-2d7f92538c24"
+                  name="Edits Own Profile"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="bf55833d-4952-487a-ad2b-a98890536fb9"
+        name="HR Person"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="98c14dd8-43ad-4490-b742-100696eea9a7"
+            isDerived="false"
+            sourceEndRoleName="HR Person"
+            targetEndRoleName="Adds an Employee"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="042a114a-194c-4e0c-82c4-060c1e8f6d88"
+              LastKnownName="Adds an Employee"
+              LastKnownLocation="SSGS EMS Model.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="9c2f7ae3-809b-48f5-858b-7ff5bcb4d1ad"
+                  name="HR Person"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="d4b5c87c-fa53-4a88-ab65-445a072db53d"
+                  name="Adds an Employee"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="79123725-2f44-4189-8d87-af95b2785c76"
+            isDerived="false"
+            sourceEndRoleName="HR Person"
+            targetEndRoleName="Sucessfully Authenticates"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="537ed7f0-ce59-45b6-949e-27311631f95a"
+              LastKnownName="Sucessfully Authenticates"
+              LastKnownLocation="SSGS EMS Model.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="1f4fabf8-9e1d-4e8f-9099-d898a15d1b43"
+                  name="HR Person"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="6fb253e1-dd91-48a4-90c6-970f8f17b6f5"
+                  name="Sucessfully Authenticates"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="0a9e253d-5467-4170-9269-5a445d4fc73a"
+            isDerived="false"
+            sourceEndRoleName="HR Person"
+            targetEndRoleName="Edits Profile"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="81a1ded3-b2a0-4686-89fa-0065bdc3516c"
+              LastKnownName="Edits Profile"
+              LastKnownLocation="SSGS EMS Model.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="f9a69e2f-afbe-44f0-a3e1-ce2a75e349b9"
+                  name="HR Person"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="c8f793c7-1f01-4f85-a3ad-71eac3458954"
+                  name="Edits Profile"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="042a114a-194c-4e0c-82c4-060c1e8f6d88"
+        name="Adds an Employee"
+        isAbstract="false"
+        isLeaf="false">
+        <suppliersInternal>
+          <dependency
+            Id="9362398f-8e8d-4c7e-8b94-b9a40dc68396">
+            <useCaseMoniker
+              Id="537ed7f0-ce59-45b6-949e-27311631f95a"
+              LastKnownName="Sucessfully Authenticates"
+              LastKnownLocation="SSGS EMS Model.uml" />
+          </dependency>
+        </suppliersInternal>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="ba3695ef-0e92-48cf-800c-402864a4f606"
+        name="Views Details in the company records"
+        isAbstract="false"
+        isLeaf="false">
+        <suppliersInternal>
+          <dependency
+            Id="923e88e5-5369-481b-9710-a372a93c1f8b">
+            <useCaseMoniker
+              Id="537ed7f0-ce59-45b6-949e-27311631f95a"
+              LastKnownName="Sucessfully Authenticates"
+              LastKnownLocation="SSGS EMS Model.uml" />
+          </dependency>
+        </suppliersInternal>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="537ed7f0-ce59-45b6-949e-27311631f95a"
+        name="Sucessfully Authenticates"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="53cf442b-f94f-467e-8936-8a8312e8d1b1"
+        name="Edits Own Profile"
+        isAbstract="false"
+        isLeaf="false">
+        <additions>
+          <include
+            Id="fdf16969-cb60-4e1d-93fd-bb2967f0cf89">
+            <useCaseMoniker
+              Id="ba3695ef-0e92-48cf-800c-402864a4f606"
+              LastKnownName="Views Details in the company records"
+              LastKnownLocation="SSGS EMS Model.uml" />
+          </include>
+        </additions>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="81a1ded3-b2a0-4686-89fa-0065bdc3516c"
+        name="Edits Profile"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="17daf8b2-4dd0-4155-9eed-b45fca801066">
+            <useCaseMoniker
+              Id="53cf442b-f94f-467e-8936-8a8312e8d1b1"
+              LastKnownName="Edits Own Profile"
+              LastKnownLocation="SSGS EMS Model.uml" />
+          </extend>
+        </extendedCases>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="52edc52b-a3ee-4d43-a32d-f4199f9f16d9"
+        name="Employee"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <targetEnds>
+          <association
+            Id="0678bbfa-90d2-4c6c-914a-706e9fdc4e86"
+            isDerived="false"
+            sourceEndRoleName="Employee"
+            targetEndRoleName="EmployeeOptionalInfo"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="e603af6a-2b47-4422-b0c3-d3e65f4c0695"
+              LastKnownName="EmployeeOptionalInfo"
+              LastKnownLocation="SSGS EMS Model.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="77e52a3a-b2db-458b-9500-2ec7a88ef31e"
+                  name="Employee"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="cc7b85ad-f011-4378-bfb4-d1c66a235b93"
+                  name="EmployeeOptionalInfo"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="82d48d50-61c5-4fa7-a93d-e34d7056ebcb"
+            name="EmpId"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="SSGS EMS Model.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="3f468ef5-a902-4ff9-87cb-21afab61fb62"
+            name="EmpFirstName"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="SSGS EMS Model.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="8e0c9069-cf2d-4858-bb8b-3d6822d16122"
+            name="EmpLastName"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="SSGS EMS Model.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="2edef09b-93ee-41eb-af58-3e8d42b66de2"
+            name="EmpDesignation"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="SSGS EMS Model.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="b9a7353f-e76b-4091-a1f1-4cec5d191f96"
+            name="EmpDepartment"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="SSGS EMS Model.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="161d3ae2-4fbb-4d4d-8b43-494ab262f256"
+            name="EmpReportsTo"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="SSGS EMS Model.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="e603af6a-2b47-4422-b0c3-d3e65f4c0695"
+        name="EmployeeOptionalInfo"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <ownedAttributesInternal>
+          <property
+            Id="92e1bbfe-5fa5-431e-b266-77f17798ea81"
+            name="EmpId"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                LastKnownName="Integer"
+                LastKnownLocation="SSGS EMS Model.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="31f30434-359f-4580-b2c5-9c27ac814f2c"
+            name="EmpEduDetails"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="SSGS EMS Model.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="fdfda93e-80ef-4aeb-91fb-a5f20d788b56"
+            name="EmpFamilyInfo"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="SSGS EMS Model.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="da65c4b9-dcc7-43d0-9e2a-4a62218947c6"
+            name="EmpHobbies"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="SSGS EMS Model.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="bf5b8b53-2ee3-4a05-b7db-ec9e109d4322"
+        name="Department"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <targetEnds>
+          <association
+            Id="094cef79-8c1b-4de8-b2ad-7d7e229bda08"
+            isDerived="false"
+            sourceEndRoleName="Department"
+            targetEndRoleName="Employee"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="52edc52b-a3ee-4d43-a32d-f4199f9f16d9"
+              LastKnownName="Employee"
+              LastKnownLocation="SSGS EMS Model.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="eff33c49-68fc-4cfc-8be4-50e483116f25"
+                  name="Department"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="Composite"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="40fb05fa-275e-4909-8e61-923e8dc33de2"
+                  name="Employee"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="true">
+                  <lowerValueInternal>
+                    <literalString
+                      Id="aa0d36f5-3a84-483f-b977-0b4b9303e4ee"
+                      name="Lower"
+                      value="*" />
+                  </lowerValueInternal>
+                  <upperValueInternal>
+                    <literalString
+                      Id="6a7e86bb-9e77-485c-91f1-32c1d1590e1a"
+                      name="Upper"
+                      value="*" />
+                  </upperValueInternal>
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="46833916-4894-4fac-931e-a0158276b107"
+        name="EMS_Business_Logic"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <dependency
+            Id="73f482d0-6878-44ea-8af7-a238bbcb4c86">
+            <classMoniker
+              Id="33eb2bb9-aa63-4a6c-a0fb-28055f431208"
+              LastKnownName="Validator"
+              LastKnownLocation="SSGS EMS Model.uml" />
+          </dependency>
+        </suppliersInternal>
+        <targetEnds>
+          <association
+            Id="6dbcae2a-b0f0-4600-9497-e0f20eeaf6a7"
+            isDerived="false"
+            sourceEndRoleName="EMS_Business_Logic"
+            targetEndRoleName="Employee"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="52edc52b-a3ee-4d43-a32d-f4199f9f16d9"
+              LastKnownName="Employee"
+              LastKnownLocation="SSGS EMS Model.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="4bdc2e21-a5f5-4c3c-8da4-5a6df88e8d37"
+                  name="EMS_Business_Logic"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="8200aa44-483a-48df-a8b5-5d4201e43a02"
+                  name="Employee"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="87c00bc7-d3bd-4778-b275-8ac52f63704b"
+            isDerived="false"
+            sourceEndRoleName="EMS_Business_Logic"
+            targetEndRoleName="EMS_Data_Access_Class"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="ee14b2dd-5152-46b8-9fc4-f8934298339b"
+              LastKnownName="EMS_Data_Access_Class"
+              LastKnownLocation="SSGS EMS Model.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="74607b7b-2844-46c4-b9e4-a9f44d62d319"
+                  name="EMS_Business_Logic"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="f5fca2bf-df01-4042-ab4a-508140e17af4"
+                  name="EMS_Data_Access_Class"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedOperationsInternal>
+          <operation
+            Id="e03d5d4b-a292-481c-a736-fd5beec19b94"
+            name="GetEmployeeData"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="ceee834f-664e-497b-befe-ff5481846831"
+                  name="EmpID"
+                  direction="In"
+                  isUnique="false">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="SSGS EMS Model.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="ab5acbab-f89e-47f2-8e7b-e2ba3a415935"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="52edc52b-a3ee-4d43-a32d-f4199f9f16d9"
+                      LastKnownName="Employee"
+                      LastKnownLocation="SSGS EMS Model.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="2446d587-976b-43af-85c2-700fba125e51"
+            name="SetEmployeeData"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="a525dde7-a78d-4968-912d-4ef68902cfa2"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+                      LastKnownName="Boolean"
+                      LastKnownLocation="SSGS EMS Model.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="e6e8c72a-1ac6-4d7b-8cf0-d5b8f70bb486"
+                  name="Employee"
+                  direction="In">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="52edc52b-a3ee-4d43-a32d-f4199f9f16d9"
+                      LastKnownName="Employee"
+                      LastKnownLocation="SSGS EMS Model.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="24f9f4f2-1189-463a-a7ef-f1e3c1390ac6"
+            name="GetEmployeeOptionalInfo"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="19153da2-5eca-4b1b-85ed-b13786acc7b0"
+                  name="EmpId"
+                  direction="In">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="SSGS EMS Model.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="4728765d-fe36-47d2-a097-82f2cb58c027"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="e603af6a-2b47-4422-b0c3-d3e65f4c0695"
+                      LastKnownName="EmployeeOptionalInfo"
+                      LastKnownLocation="SSGS EMS Model.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="33eb2bb9-aa63-4a6c-a0fb-28055f431208"
+        name="Validator"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <interfaceRealization
+            Id="b6477c43-0989-4351-8103-a6a8eec0f779">
+            <interfaceMoniker
+              Id="fde927b6-2917-4165-be16-e56ec03a85ea"
+              LastKnownName="IValidate"
+              LastKnownLocation="SSGS EMS Model.uml" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="3d251356-ac99-4f62-97a1-f140b3456013"
+            name="ValidateEmployeeData"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="a6df346d-1a4a-4e23-89d1-8bfdb202dc0b"
+                  name="Employee"
+                  direction="In">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="52edc52b-a3ee-4d43-a32d-f4199f9f16d9"
+                      LastKnownName="Employee"
+                      LastKnownLocation="SSGS EMS Model.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="a8720a75-40f8-4842-861e-83060954b263"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+                      LastKnownName="Boolean"
+                      LastKnownLocation="SSGS EMS Model.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="9d72f147-ab79-4624-8d38-5c0a384bbc3f"
+            name="ValidateEmployee"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="f43f4983-a667-475d-8b4b-9f3b741fa024"
+                  name="Employee"
+                  direction="In">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="52edc52b-a3ee-4d43-a32d-f4199f9f16d9"
+                      LastKnownName="Employee"
+                      LastKnownLocation="SSGS EMS Model.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="fde927b6-2917-4165-be16-e56ec03a85ea"
+        name="IValidate"
+        isAbstract="false"
+        isLeaf="false">
+        <ownedOperations>
+          <operation
+            Id="ef46f33b-3425-4995-9dc9-e0e2bece7cc9"
+            name="ValidateEmployee"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="8a3f986d-6878-4f01-8c95-fbecf4255cd1"
+                  name="Employee"
+                  direction="In">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="52edc52b-a3ee-4d43-a32d-f4199f9f16d9"
+                      LastKnownName="Employee"
+                      LastKnownLocation="SSGS EMS Model.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperations>
+      </Interface>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="febcf1f3-f2a7-466a-a8da-faaadb3aeaab"
+        name="HR Person"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <generalsInternal>
+          <generalization
+            Id="47b8dc72-666e-4ab9-a0eb-87810e7e7ced"
+            isSubstitutable="false">
+            <classMoniker
+              Id="52edc52b-a3ee-4d43-a32d-f4199f9f16d9"
+              LastKnownName="Employee"
+              LastKnownLocation="SSGS EMS Model.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="18a3608f-056c-4e36-820a-f19c607a2fdf"
+            name="AddEmployee"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="8275c517-2004-4291-afa5-3aa5f7364ba4"
+                  name="Employee"
+                  direction="In">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="52edc52b-a3ee-4d43-a32d-f4199f9f16d9"
+                      LastKnownName="Employee"
+                      LastKnownLocation="SSGS EMS Model.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="1e17d917-b02a-4614-a612-c35515c7f2f4"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+                      LastKnownName="Boolean"
+                      LastKnownLocation="SSGS EMS Model.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="ee14b2dd-5152-46b8-9fc4-f8934298339b"
+        name="EMS_Data_Access_Class"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <targetEnds>
+          <association
+            Id="ccfb3a3e-483f-427e-a4ae-2e93a6575456"
+            isDerived="false"
+            sourceEndRoleName="EMS_Data_Access_Class"
+            targetEndRoleName="Employee"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="52edc52b-a3ee-4d43-a32d-f4199f9f16d9"
+              LastKnownName="Employee"
+              LastKnownLocation="SSGS EMS Model.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="ae383cde-01e2-48f7-afd7-20ba416fb9a8"
+                  name="EMS_Data_Access_Class"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="9ffbe673-b3ba-4dd0-ae9a-f7a188530e42"
+                  name="Employee"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+        <ownedOperationsInternal>
+          <operation
+            Id="aa4114d4-3696-4eb9-a7fc-150ad86590b4"
+            name="AddEmp"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="d9c686a4-b3ac-4975-98f8-0983404760b7"
+                  name="Employee"
+                  direction="In">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="52edc52b-a3ee-4d43-a32d-f4199f9f16d9"
+                      LastKnownName="Employee"
+                      LastKnownLocation="SSGS EMS Model.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="7e9df8e4-25c0-4f99-8665-ede42d27f26b"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+                      LastKnownName="Boolean"
+                      LastKnownLocation="SSGS EMS Model.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="0a363b3b-d26d-471d-9547-405fed3c8300"
+            name="GetBasicEmployeeData"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="7be5586e-8503-468d-962c-a5f364c976c8"
+                  name="EmpId"
+                  direction="In">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="SSGS EMS Model.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="bba6d740-3b29-43e6-8aad-6a91ac7a2a5e"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="52edc52b-a3ee-4d43-a32d-f4199f9f16d9"
+                      LastKnownName="Employee"
+                      LastKnownLocation="SSGS EMS Model.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="bab452de-5a60-4a5c-a69c-42227e81da92"
+            name="GetOptionalEmployeeData"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="3ab1cb84-f021-4462-8400-bfb0abe9b1fb"
+                  name="EmpId"
+                  direction="In">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="SSGS EMS Model.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="67df895e-d43c-48fe-900e-d92ba3a8d0b9"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="e603af6a-2b47-4422-b0c3-d3e65f4c0695"
+                      LastKnownName="EmployeeOptionalInfo"
+                      LastKnownLocation="SSGS EMS Model.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="18372c24-9871-4cec-8aef-ae6340cd5b08"
+        name="Default"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <targetEnds>
+          <association
+            Id="be7a9bfc-ce94-4150-b1fb-28e3b5522ba8"
+            isDerived="false"
+            sourceEndRoleName="Default"
+            targetEndRoleName="EMS_Business_Logic"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="46833916-4894-4fac-931e-a0158276b107"
+              LastKnownName="EMS_Business_Logic"
+              LastKnownLocation="SSGS EMS Model.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="0b326676-1dbf-4087-8486-2ef1067547da"
+                  name="Default"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="029e26b2-4594-4f1d-a1c3-1c40df608f16"
+                  name="EMS_Business_Logic"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="68289910-24bd-4c9e-b9a0-5bef5d09e6db"
+        name="ShowEmployeeData"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <targetEnds>
+          <association
+            Id="7f71b7e9-56ac-4e7c-a8ac-75e5ca6e819a"
+            isDerived="false"
+            sourceEndRoleName="ShowEmployeeData"
+            targetEndRoleName="EMS_Business_Logic"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="46833916-4894-4fac-931e-a0158276b107"
+              LastKnownName="EMS_Business_Logic"
+              LastKnownLocation="SSGS EMS Model.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="5d79854d-a0c5-4078-bfa4-b20317e7ccaa"
+                  name="ShowEmployeeData"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="7e29650f-d0b2-4a37-88c1-707f90869edc"
+                  name="EMS_Business_Logic"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <interaction
+        Id="07ce6e9d-a27b-4f5e-b553-ced869cf9ced"
+        name="SSGS EMS"
+        collapseFragmentsFlag="false"
+        isActiveClass="false"
+        isAbstract="false"
+        isLeaf="false"
+        isReentrant="false">
+        <fragments>
+          <behaviorExecutionSpecification
+            Id="ecaa325e-3055-4d3f-b5f7-973ec8b318e8"
+            name="BehaviorExecutionSpecification1">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="747abfb7-4eb2-4822-a891-bf4c6c58ba6b"
+                LastKnownName="ShowEmployeeData"
+                LastKnownLocation="SSGS EMS Model.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="f1fe571d-36e6-4c30-82af-41486f23e7d7"
+                LastKnownName="ExecutionOccurrenceSpecification2"
+                LastKnownLocation="SSGS EMS Model.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="aa4a3893-29a5-4674-a516-ff588a17a86c"
+                LastKnownName="ExecutionOccurrenceSpecification1"
+                LastKnownLocation="SSGS EMS Model.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="0b7b087d-2687-4460-a199-96cdfb368832"
+                LastKnownName="MessageOccurrenceSpecification2"
+                LastKnownLocation="SSGS EMS Model.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="46bc58f2-1b98-49dd-ba03-b8e498dc84a5"
+                LastKnownName="MessageOccurrenceSpecification3"
+                LastKnownLocation="SSGS EMS Model.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="85dff595-22f6-4c7f-82a9-912efe2519a1"
+                LastKnownName="MessageOccurrenceSpecification6"
+                LastKnownLocation="SSGS EMS Model.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="ac29ad62-e575-4054-8628-f6e0910fc238"
+                LastKnownName="MessageOccurrenceSpecification11"
+                LastKnownLocation="SSGS EMS Model.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="50509f61-7587-49c3-b020-b1656f6cc1b7"
+                LastKnownName="MessageOccurrenceSpecification14"
+                LastKnownLocation="SSGS EMS Model.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="aa4a3893-29a5-4674-a516-ff588a17a86c"
+            name="ExecutionOccurrenceSpecification1">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="1cf16c1d-7c7e-4d46-9adc-6c9a9024f909"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="SSGS EMS Model.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="747abfb7-4eb2-4822-a891-bf4c6c58ba6b"
+                LastKnownName="ShowEmployeeData"
+                LastKnownLocation="SSGS EMS Model.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="0b7b087d-2687-4460-a199-96cdfb368832"
+            name="MessageOccurrenceSpecification2">
+            <covered>
+              <lifelineMoniker
+                Id="747abfb7-4eb2-4822-a891-bf4c6c58ba6b"
+                LastKnownName="ShowEmployeeData"
+                LastKnownLocation="SSGS EMS Model.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="29d8d119-5389-44de-b314-b1e0dee9cde1"
+            name="MessageOccurrenceSpecification1">
+            <covered>
+              <lifelineMoniker
+                Id="f34cc9c5-ad8e-4917-869e-ab92b5be4332"
+                LastKnownName="Default"
+                LastKnownLocation="SSGS EMS Model.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="2ea258ed-bd1e-4817-9c58-61ee29e387af"
+            name="BehaviorExecutionSpecification2">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="3d639281-e56d-459c-8405-30c177ee6ad5"
+                LastKnownName="EMS_Business_Logic"
+                LastKnownLocation="SSGS EMS Model.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="2dd1c747-a5fc-4bef-9530-745562e08673"
+                LastKnownName="ExecutionOccurrenceSpecification4"
+                LastKnownLocation="SSGS EMS Model.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="ad5d98e3-d68b-4ba0-b0da-86806b340384"
+                LastKnownName="ExecutionOccurrenceSpecification3"
+                LastKnownLocation="SSGS EMS Model.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="47864fbb-79df-4cd5-b6aa-44b4676e5a7e"
+                LastKnownName="MessageOccurrenceSpecification4"
+                LastKnownLocation="SSGS EMS Model.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="da851267-0c38-437a-8900-1571d0202e18"
+                LastKnownName="MessageOccurrenceSpecification7"
+                LastKnownLocation="SSGS EMS Model.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="9107957a-e232-4f31-84d8-17b0d3a6e92b"
+                LastKnownName="MessageOccurrenceSpecification10"
+                LastKnownLocation="SSGS EMS Model.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="f3611261-f6d7-44f3-9016-5b58f00d2797"
+                LastKnownName="MessageOccurrenceSpecification5"
+                LastKnownLocation="SSGS EMS Model.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="ad5d98e3-d68b-4ba0-b0da-86806b340384"
+            name="ExecutionOccurrenceSpecification3">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="4ac8c0e0-e99c-4323-846d-c8f7f74dd350"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="SSGS EMS Model.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="3d639281-e56d-459c-8405-30c177ee6ad5"
+                LastKnownName="EMS_Business_Logic"
+                LastKnownLocation="SSGS EMS Model.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="47864fbb-79df-4cd5-b6aa-44b4676e5a7e"
+            name="MessageOccurrenceSpecification4">
+            <event>
+              <receiveOperationEventMoniker
+                Id="cb220ed6-e367-4962-86eb-17a397332a55"
+                LastKnownLocation="SSGS EMS Model.uml" />
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="3d639281-e56d-459c-8405-30c177ee6ad5"
+                LastKnownName="EMS_Business_Logic"
+                LastKnownLocation="SSGS EMS Model.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="46bc58f2-1b98-49dd-ba03-b8e498dc84a5"
+            name="MessageOccurrenceSpecification3">
+            <event>
+              <sendOperationEventMoniker
+                Id="2caa2a76-904c-462e-9cb2-e0fceb6ee973"
+                LastKnownLocation="SSGS EMS Model.uml" />
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="747abfb7-4eb2-4822-a891-bf4c6c58ba6b"
+                LastKnownName="ShowEmployeeData"
+                LastKnownLocation="SSGS EMS Model.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="93501b4e-e135-4b99-be99-1e91fdbf67b0"
+            name="BehaviorExecutionSpecification3">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="63566630-2edf-46d8-b76b-2965c4ea0dfd"
+                LastKnownName="EMS_Data_Access_Class"
+                LastKnownLocation="SSGS EMS Model.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="0fd13851-71a4-4649-a08e-94a0350a38ed"
+                LastKnownName="ExecutionOccurrenceSpecification6"
+                LastKnownLocation="SSGS EMS Model.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="241e7fa0-f42a-4ab1-a18d-807b1b88eb77"
+                LastKnownName="ExecutionOccurrenceSpecification5"
+                LastKnownLocation="SSGS EMS Model.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="144c392b-bba4-4da3-9a34-8b1477432d5f"
+                LastKnownName="MessageOccurrenceSpecification8"
+                LastKnownLocation="SSGS EMS Model.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="5113ff60-fe29-49aa-a44d-14777071745f"
+                LastKnownName="MessageOccurrenceSpecification9"
+                LastKnownLocation="SSGS EMS Model.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="241e7fa0-f42a-4ab1-a18d-807b1b88eb77"
+            name="ExecutionOccurrenceSpecification5">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="4636c9fd-4efa-44fc-87c4-bf72f147c79c"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="SSGS EMS Model.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="63566630-2edf-46d8-b76b-2965c4ea0dfd"
+                LastKnownName="EMS_Data_Access_Class"
+                LastKnownLocation="SSGS EMS Model.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="144c392b-bba4-4da3-9a34-8b1477432d5f"
+            name="MessageOccurrenceSpecification8">
+            <event>
+              <receiveOperationEventMoniker
+                Id="b77e3ba6-d835-407a-988d-deee8a0efcde"
+                LastKnownLocation="SSGS EMS Model.uml" />
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="63566630-2edf-46d8-b76b-2965c4ea0dfd"
+                LastKnownName="EMS_Data_Access_Class"
+                LastKnownLocation="SSGS EMS Model.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="da851267-0c38-437a-8900-1571d0202e18"
+            name="MessageOccurrenceSpecification7">
+            <event>
+              <sendOperationEventMoniker
+                Id="5268ef1e-d441-44b5-8374-0c5beb0b249c"
+                LastKnownLocation="SSGS EMS Model.uml" />
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="3d639281-e56d-459c-8405-30c177ee6ad5"
+                LastKnownName="EMS_Business_Logic"
+                LastKnownLocation="SSGS EMS Model.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="5113ff60-fe29-49aa-a44d-14777071745f"
+            name="MessageOccurrenceSpecification9">
+            <covered>
+              <lifelineMoniker
+                Id="63566630-2edf-46d8-b76b-2965c4ea0dfd"
+                LastKnownName="EMS_Data_Access_Class"
+                LastKnownLocation="SSGS EMS Model.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="9107957a-e232-4f31-84d8-17b0d3a6e92b"
+            name="MessageOccurrenceSpecification10">
+            <covered>
+              <lifelineMoniker
+                Id="3d639281-e56d-459c-8405-30c177ee6ad5"
+                LastKnownName="EMS_Business_Logic"
+                LastKnownLocation="SSGS EMS Model.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="0fd13851-71a4-4649-a08e-94a0350a38ed"
+            name="ExecutionOccurrenceSpecification6">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="fc72324d-7c97-41e6-bfe8-83f402dde0cc"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="SSGS EMS Model.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="63566630-2edf-46d8-b76b-2965c4ea0dfd"
+                LastKnownName="EMS_Data_Access_Class"
+                LastKnownLocation="SSGS EMS Model.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="f3611261-f6d7-44f3-9016-5b58f00d2797"
+            name="MessageOccurrenceSpecification5">
+            <covered>
+              <lifelineMoniker
+                Id="3d639281-e56d-459c-8405-30c177ee6ad5"
+                LastKnownName="EMS_Business_Logic"
+                LastKnownLocation="SSGS EMS Model.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="85dff595-22f6-4c7f-82a9-912efe2519a1"
+            name="MessageOccurrenceSpecification6">
+            <covered>
+              <lifelineMoniker
+                Id="747abfb7-4eb2-4822-a891-bf4c6c58ba6b"
+                LastKnownName="ShowEmployeeData"
+                LastKnownLocation="SSGS EMS Model.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="2dd1c747-a5fc-4bef-9530-745562e08673"
+            name="ExecutionOccurrenceSpecification4">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="d1d9d101-1780-44e3-a8dc-447b5595e17b"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="SSGS EMS Model.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="3d639281-e56d-459c-8405-30c177ee6ad5"
+                LastKnownName="EMS_Business_Logic"
+                LastKnownLocation="SSGS EMS Model.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="59df46c0-7ccf-4f88-aa2b-25e77deb9a22"
+            name="BehaviorExecutionSpecification4">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="3d639281-e56d-459c-8405-30c177ee6ad5"
+                LastKnownName="EMS_Business_Logic"
+                LastKnownLocation="SSGS EMS Model.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="99091bf4-a3ac-4f4d-9a02-bc195d13d6ed"
+                LastKnownName="ExecutionOccurrenceSpecification8"
+                LastKnownLocation="SSGS EMS Model.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="cac24353-646f-4a5b-9ab5-a7e78c397ffc"
+                LastKnownName="ExecutionOccurrenceSpecification7"
+                LastKnownLocation="SSGS EMS Model.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="12a4a13c-7f78-42e8-8427-49747160d1f6"
+                LastKnownName="MessageOccurrenceSpecification12"
+                LastKnownLocation="SSGS EMS Model.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="480f541c-fe90-4dd5-887a-ca4be43ad0f4"
+                LastKnownName="MessageOccurrenceSpecification15"
+                LastKnownLocation="SSGS EMS Model.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="f07d393f-9ab0-4a52-b5f3-046c3d594ca1"
+                LastKnownName="MessageOccurrenceSpecification18"
+                LastKnownLocation="SSGS EMS Model.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="d5605cb4-2523-46f8-93d1-54f39af0d4b7"
+                LastKnownName="MessageOccurrenceSpecification13"
+                LastKnownLocation="SSGS EMS Model.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="cac24353-646f-4a5b-9ab5-a7e78c397ffc"
+            name="ExecutionOccurrenceSpecification7">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="b8bd3be2-93c9-489a-969f-b9f6e4c9d07e"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="SSGS EMS Model.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="3d639281-e56d-459c-8405-30c177ee6ad5"
+                LastKnownName="EMS_Business_Logic"
+                LastKnownLocation="SSGS EMS Model.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="12a4a13c-7f78-42e8-8427-49747160d1f6"
+            name="MessageOccurrenceSpecification12">
+            <event>
+              <receiveOperationEventMoniker
+                Id="c9a3be10-3b13-4f39-861c-ffc5093af631"
+                LastKnownLocation="SSGS EMS Model.uml" />
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="3d639281-e56d-459c-8405-30c177ee6ad5"
+                LastKnownName="EMS_Business_Logic"
+                LastKnownLocation="SSGS EMS Model.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="ac29ad62-e575-4054-8628-f6e0910fc238"
+            name="MessageOccurrenceSpecification11">
+            <event>
+              <sendOperationEventMoniker
+                Id="10412898-00e2-439c-998c-86e9e4266462"
+                LastKnownLocation="SSGS EMS Model.uml" />
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="747abfb7-4eb2-4822-a891-bf4c6c58ba6b"
+                LastKnownName="ShowEmployeeData"
+                LastKnownLocation="SSGS EMS Model.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification
+            Id="bf921e5d-9707-4748-896a-bd0621539f84"
+            name="BehaviorExecutionSpecification5">
+            <coveredLifelines>
+              <lifelineMoniker
+                Id="63566630-2edf-46d8-b76b-2965c4ea0dfd"
+                LastKnownName="EMS_Data_Access_Class"
+                LastKnownLocation="SSGS EMS Model.uml" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker
+                Id="b3374b68-fb6f-4061-aae3-390f6326c37f"
+                LastKnownName="ExecutionOccurrenceSpecification10"
+                LastKnownLocation="SSGS EMS Model.uml" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker
+                Id="b196eea6-3552-4970-9937-f9f75ffca0a9"
+                LastKnownName="ExecutionOccurrenceSpecification9"
+                LastKnownLocation="SSGS EMS Model.uml" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="30188c54-cabe-4732-903f-f0373992dc16"
+                LastKnownName="MessageOccurrenceSpecification16"
+                LastKnownLocation="SSGS EMS Model.uml" />
+              <messageOccurrenceSpecificationMoniker
+                Id="c38f3b27-fa05-4faa-a130-2d2b6cece869"
+                LastKnownName="MessageOccurrenceSpecification17"
+                LastKnownLocation="SSGS EMS Model.uml" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification
+            Id="b196eea6-3552-4970-9937-f9f75ffca0a9"
+            name="ExecutionOccurrenceSpecification9">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="5fd4c5df-56c3-42f8-bae5-6a454ec18a34"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="SSGS EMS Model.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="63566630-2edf-46d8-b76b-2965c4ea0dfd"
+                LastKnownName="EMS_Data_Access_Class"
+                LastKnownLocation="SSGS EMS Model.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="480f541c-fe90-4dd5-887a-ca4be43ad0f4"
+            name="MessageOccurrenceSpecification15">
+            <event>
+              <sendOperationEventMoniker
+                Id="80ae6d3f-d2c0-4ae5-a286-741c36427d4a"
+                LastKnownLocation="SSGS EMS Model.uml" />
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="3d639281-e56d-459c-8405-30c177ee6ad5"
+                LastKnownName="EMS_Business_Logic"
+                LastKnownLocation="SSGS EMS Model.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="30188c54-cabe-4732-903f-f0373992dc16"
+            name="MessageOccurrenceSpecification16">
+            <event>
+              <receiveOperationEventMoniker
+                Id="3a46f790-f294-4665-a56f-50137444e7ac"
+                LastKnownLocation="SSGS EMS Model.uml" />
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="63566630-2edf-46d8-b76b-2965c4ea0dfd"
+                LastKnownName="EMS_Data_Access_Class"
+                LastKnownLocation="SSGS EMS Model.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="f07d393f-9ab0-4a52-b5f3-046c3d594ca1"
+            name="MessageOccurrenceSpecification18">
+            <covered>
+              <lifelineMoniker
+                Id="3d639281-e56d-459c-8405-30c177ee6ad5"
+                LastKnownName="EMS_Business_Logic"
+                LastKnownLocation="SSGS EMS Model.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="c38f3b27-fa05-4faa-a130-2d2b6cece869"
+            name="MessageOccurrenceSpecification17">
+            <covered>
+              <lifelineMoniker
+                Id="63566630-2edf-46d8-b76b-2965c4ea0dfd"
+                LastKnownName="EMS_Data_Access_Class"
+                LastKnownLocation="SSGS EMS Model.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="b3374b68-fb6f-4061-aae3-390f6326c37f"
+            name="ExecutionOccurrenceSpecification10">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="cf32c4e7-b367-4918-a9b3-15e91fcd749d"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="SSGS EMS Model.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="63566630-2edf-46d8-b76b-2965c4ea0dfd"
+                LastKnownName="EMS_Data_Access_Class"
+                LastKnownLocation="SSGS EMS Model.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="d5605cb4-2523-46f8-93d1-54f39af0d4b7"
+            name="MessageOccurrenceSpecification13">
+            <covered>
+              <lifelineMoniker
+                Id="3d639281-e56d-459c-8405-30c177ee6ad5"
+                LastKnownName="EMS_Business_Logic"
+                LastKnownLocation="SSGS EMS Model.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification
+            Id="50509f61-7587-49c3-b020-b1656f6cc1b7"
+            name="MessageOccurrenceSpecification14">
+            <covered>
+              <lifelineMoniker
+                Id="747abfb7-4eb2-4822-a891-bf4c6c58ba6b"
+                LastKnownName="ShowEmployeeData"
+                LastKnownLocation="SSGS EMS Model.uml" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="99091bf4-a3ac-4f4d-9a02-bc195d13d6ed"
+            name="ExecutionOccurrenceSpecification8">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="01589fa2-2ae3-4c68-807e-f6b6fa5ba4e6"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="SSGS EMS Model.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="3d639281-e56d-459c-8405-30c177ee6ad5"
+                LastKnownName="EMS_Business_Logic"
+                LastKnownLocation="SSGS EMS Model.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <executionOccurrenceSpecification
+            Id="f1fe571d-36e6-4c30-82af-41486f23e7d7"
+            name="ExecutionOccurrenceSpecification2">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker
+                  Id="61a2db58-db3e-4ece-984a-727953766cbf"
+                  LastKnownName="ExecutionEvent"
+                  LastKnownLocation="SSGS EMS Model.uml" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker
+                Id="747abfb7-4eb2-4822-a891-bf4c6c58ba6b"
+                LastKnownName="ShowEmployeeData"
+                LastKnownLocation="SSGS EMS Model.uml" />
+            </covered>
+          </executionOccurrenceSpecification>
+        </fragments>
+        <lifelines>
+          <lifeline
+            Id="f34cc9c5-ad8e-4917-869e-ab92b5be4332"
+            name="Default"
+            isActor="false"
+            lifelineDisplayName="Default">
+            <represents>
+              <propertyMoniker
+                Id="58be4c7a-b0db-4974-aa92-dc103170c3b1"
+                LastKnownLocation="SSGS EMS Model.uml" />
+            </represents>
+            <topLevelOccurrences>
+              <messageOccurrenceSpecificationMoniker
+                Id="29d8d119-5389-44de-b314-b1e0dee9cde1"
+                LastKnownName="MessageOccurrenceSpecification1"
+                LastKnownLocation="SSGS EMS Model.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="747abfb7-4eb2-4822-a891-bf4c6c58ba6b"
+            name="ShowEmployeeData"
+            isActor="false"
+            lifelineDisplayName="ShowEmployeeData">
+            <represents>
+              <propertyMoniker
+                Id="35f48065-d747-49de-b22f-b9ae6fc9a0af"
+                LastKnownLocation="SSGS EMS Model.uml" />
+            </represents>
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="aa4a3893-29a5-4674-a516-ff588a17a86c"
+                LastKnownName="ExecutionOccurrenceSpecification1"
+                LastKnownLocation="SSGS EMS Model.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="f1fe571d-36e6-4c30-82af-41486f23e7d7"
+                LastKnownName="ExecutionOccurrenceSpecification2"
+                LastKnownLocation="SSGS EMS Model.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="3d639281-e56d-459c-8405-30c177ee6ad5"
+            name="EMS_Business_Logic"
+            isActor="false"
+            lifelineDisplayName="EMS_Business_Logic">
+            <represents>
+              <propertyMoniker
+                Id="7a0c9a7c-b5a4-4f41-8aeb-0f605b6b1daf"
+                LastKnownLocation="SSGS EMS Model.uml" />
+            </represents>
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="ad5d98e3-d68b-4ba0-b0da-86806b340384"
+                LastKnownName="ExecutionOccurrenceSpecification3"
+                LastKnownLocation="SSGS EMS Model.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="2dd1c747-a5fc-4bef-9530-745562e08673"
+                LastKnownName="ExecutionOccurrenceSpecification4"
+                LastKnownLocation="SSGS EMS Model.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="cac24353-646f-4a5b-9ab5-a7e78c397ffc"
+                LastKnownName="ExecutionOccurrenceSpecification7"
+                LastKnownLocation="SSGS EMS Model.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="99091bf4-a3ac-4f4d-9a02-bc195d13d6ed"
+                LastKnownName="ExecutionOccurrenceSpecification8"
+                LastKnownLocation="SSGS EMS Model.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline
+            Id="63566630-2edf-46d8-b76b-2965c4ea0dfd"
+            name="EMS_Data_Access_Class"
+            isActor="false"
+            lifelineDisplayName="EMS_Data_Access_Class">
+            <represents>
+              <propertyMoniker
+                Id="67e55e45-f203-478f-8fd4-b75a63d641f4"
+                LastKnownLocation="SSGS EMS Model.uml" />
+            </represents>
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker
+                Id="241e7fa0-f42a-4ab1-a18d-807b1b88eb77"
+                LastKnownName="ExecutionOccurrenceSpecification5"
+                LastKnownLocation="SSGS EMS Model.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="0fd13851-71a4-4649-a08e-94a0350a38ed"
+                LastKnownName="ExecutionOccurrenceSpecification6"
+                LastKnownLocation="SSGS EMS Model.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="b196eea6-3552-4970-9937-f9f75ffca0a9"
+                LastKnownName="ExecutionOccurrenceSpecification9"
+                LastKnownLocation="SSGS EMS Model.uml" />
+              <executionOccurrenceSpecificationMoniker
+                Id="b3374b68-fb6f-4061-aae3-390f6326c37f"
+                LastKnownName="ExecutionOccurrenceSpecification10"
+                LastKnownLocation="SSGS EMS Model.uml" />
+            </topLevelOccurrences>
+          </lifeline>
+        </lifelines>
+        <messages>
+          <message
+            Id="9d8c5263-abf1-4d2e-96c5-8b08af28e786"
+            name="Message1"
+            messageKind="Complete"
+            messageSort="AsynchCall"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="29d8d119-5389-44de-b314-b1e0dee9cde1"
+                LastKnownName="MessageOccurrenceSpecification1"
+                LastKnownLocation="SSGS EMS Model.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="0b7b087d-2687-4460-a199-96cdfb368832"
+                LastKnownName="MessageOccurrenceSpecification2"
+                LastKnownLocation="SSGS EMS Model.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="3197fae7-661c-4878-b953-49e79f36ca0f"
+            name="Message2"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false"
+            signatureText="+ GetEmployeeData(EmpID : Integer) : Employee">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="46bc58f2-1b98-49dd-ba03-b8e498dc84a5"
+                LastKnownName="MessageOccurrenceSpecification3"
+                LastKnownLocation="SSGS EMS Model.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="47864fbb-79df-4cd5-b6aa-44b4676e5a7e"
+                LastKnownName="MessageOccurrenceSpecification4"
+                LastKnownLocation="SSGS EMS Model.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="d9573c4e-30d8-4e78-acfc-64f4161bf59f"
+            name="&lt;&lt;return&gt;&gt;"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="f3611261-f6d7-44f3-9016-5b58f00d2797"
+                LastKnownName="MessageOccurrenceSpecification5"
+                LastKnownLocation="SSGS EMS Model.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="85dff595-22f6-4c7f-82a9-912efe2519a1"
+                LastKnownName="MessageOccurrenceSpecification6"
+                LastKnownLocation="SSGS EMS Model.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="d0fc3da0-d5bc-4112-8d6f-d9513a74ebdf"
+            name="Message3"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false"
+            signatureText="+ GetBasicEmployeeData(EmpId : Integer) : SSGS EMS Model::Employee">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="da851267-0c38-437a-8900-1571d0202e18"
+                LastKnownName="MessageOccurrenceSpecification7"
+                LastKnownLocation="SSGS EMS Model.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="144c392b-bba4-4da3-9a34-8b1477432d5f"
+                LastKnownName="MessageOccurrenceSpecification8"
+                LastKnownLocation="SSGS EMS Model.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="c371dd47-21a6-41f8-b3bd-cb198c9180cb"
+            name="&lt;&lt;return&gt;&gt;"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="5113ff60-fe29-49aa-a44d-14777071745f"
+                LastKnownName="MessageOccurrenceSpecification9"
+                LastKnownLocation="SSGS EMS Model.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="9107957a-e232-4f31-84d8-17b0d3a6e92b"
+                LastKnownName="MessageOccurrenceSpecification10"
+                LastKnownLocation="SSGS EMS Model.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="f5084112-9ad5-4e37-8d5a-74f3aea7a2d9"
+            name="Message4"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false"
+            signatureText="+ GetEmployeeOptionalInfo(EmpId : Integer) : EmployeeOptionalInfo">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="ac29ad62-e575-4054-8628-f6e0910fc238"
+                LastKnownName="MessageOccurrenceSpecification11"
+                LastKnownLocation="SSGS EMS Model.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="12a4a13c-7f78-42e8-8427-49747160d1f6"
+                LastKnownName="MessageOccurrenceSpecification12"
+                LastKnownLocation="SSGS EMS Model.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="d9abd1ca-7036-4c9e-944b-75244cf4e81a"
+            name="&lt;&lt;return&gt;&gt;"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="d5605cb4-2523-46f8-93d1-54f39af0d4b7"
+                LastKnownName="MessageOccurrenceSpecification13"
+                LastKnownLocation="SSGS EMS Model.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="50509f61-7587-49c3-b020-b1656f6cc1b7"
+                LastKnownName="MessageOccurrenceSpecification14"
+                LastKnownLocation="SSGS EMS Model.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="771839c7-0a1f-44a4-8cfb-2a07aa5878cd"
+            name="Message5"
+            messageKind="Complete"
+            messageSort="SynchCall"
+            createSelfMessage="false"
+            signatureText="+ GetOptionalEmployeeData(EmpId : Integer) : EmployeeOptionalInfo">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="480f541c-fe90-4dd5-887a-ca4be43ad0f4"
+                LastKnownName="MessageOccurrenceSpecification15"
+                LastKnownLocation="SSGS EMS Model.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="30188c54-cabe-4732-903f-f0373992dc16"
+                LastKnownName="MessageOccurrenceSpecification16"
+                LastKnownLocation="SSGS EMS Model.uml" />
+            </receiveEvent>
+          </message>
+          <message
+            Id="22f23b89-244a-497a-844e-1b32c82dfc37"
+            name="&lt;&lt;return&gt;&gt;"
+            messageKind="Complete"
+            messageSort="Reply"
+            createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="c38f3b27-fa05-4faa-a130-2d2b6cece869"
+                LastKnownName="MessageOccurrenceSpecification17"
+                LastKnownLocation="SSGS EMS Model.uml" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker
+                Id="f07d393f-9ab0-4a52-b5f3-046c3d594ca1"
+                LastKnownName="MessageOccurrenceSpecification18"
+                LastKnownLocation="SSGS EMS Model.uml" />
+            </receiveEvent>
+          </message>
+        </messages>
+        <ownedAttributesInternal>
+          <property
+            Id="58be4c7a-b0db-4974-aa92-dc103170c3b1"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <classMoniker
+                Id="18372c24-9871-4cec-8aef-ae6340cd5b08"
+                LastKnownName="Default"
+                LastKnownLocation="SSGS EMS Model.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="35f48065-d747-49de-b22f-b9ae6fc9a0af"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <classMoniker
+                Id="68289910-24bd-4c9e-b9a0-5bef5d09e6db"
+                LastKnownName="ShowEmployeeData"
+                LastKnownLocation="SSGS EMS Model.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="7a0c9a7c-b5a4-4f41-8aeb-0f605b6b1daf"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <classMoniker
+                Id="46833916-4894-4fac-931e-a0158276b107"
+                LastKnownName="EMS_Business_Logic"
+                LastKnownLocation="SSGS EMS Model.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="67e55e45-f203-478f-8fd4-b75a63d641f4"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <type_NamedElement>
+              <classMoniker
+                Id="ee14b2dd-5152-46b8-9fc4-f8934298339b"
+                LastKnownName="EMS_Data_Access_Class"
+                LastKnownLocation="SSGS EMS Model.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+      </interaction>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="1cf16c1d-7c7e-4d46-9adc-6c9a9024f909"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="61a2db58-db3e-4ece-984a-727953766cbf"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="4ac8c0e0-e99c-4323-846d-c8f7f74dd350"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="d1d9d101-1780-44e3-a8dc-447b5595e17b"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <sendOperationEvent
+        Id="2caa2a76-904c-462e-9cb2-e0fceb6ee973">
+        <operation>
+          <operationMoniker
+            Id="e03d5d4b-a292-481c-a736-fd5beec19b94"
+            LastKnownName="GetEmployeeData"
+            LastKnownLocation="SSGS EMS Model.uml" />
+        </operation>
+      </sendOperationEvent>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <receiveOperationEvent
+        Id="cb220ed6-e367-4962-86eb-17a397332a55">
+        <operation>
+          <operationMoniker
+            Id="e03d5d4b-a292-481c-a736-fd5beec19b94"
+            LastKnownName="GetEmployeeData"
+            LastKnownLocation="SSGS EMS Model.uml" />
+        </operation>
+      </receiveOperationEvent>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="4636c9fd-4efa-44fc-87c4-bf72f147c79c"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="fc72324d-7c97-41e6-bfe8-83f402dde0cc"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <sendOperationEvent
+        Id="5268ef1e-d441-44b5-8374-0c5beb0b249c">
+        <operation>
+          <operationMoniker
+            Id="0a363b3b-d26d-471d-9547-405fed3c8300"
+            LastKnownName="GetBasicEmployeeData"
+            LastKnownLocation="SSGS EMS Model.uml" />
+        </operation>
+      </sendOperationEvent>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <receiveOperationEvent
+        Id="b77e3ba6-d835-407a-988d-deee8a0efcde">
+        <operation>
+          <operationMoniker
+            Id="0a363b3b-d26d-471d-9547-405fed3c8300"
+            LastKnownName="GetBasicEmployeeData"
+            LastKnownLocation="SSGS EMS Model.uml" />
+        </operation>
+      </receiveOperationEvent>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="b8bd3be2-93c9-489a-969f-b9f6e4c9d07e"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="01589fa2-2ae3-4c68-807e-f6b6fa5ba4e6"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <sendOperationEvent
+        Id="10412898-00e2-439c-998c-86e9e4266462">
+        <operation>
+          <operationMoniker
+            Id="24f9f4f2-1189-463a-a7ef-f1e3c1390ac6"
+            LastKnownName="GetEmployeeOptionalInfo"
+            LastKnownLocation="SSGS EMS Model.uml" />
+        </operation>
+      </sendOperationEvent>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <receiveOperationEvent
+        Id="c9a3be10-3b13-4f39-861c-ffc5093af631">
+        <operation>
+          <operationMoniker
+            Id="24f9f4f2-1189-463a-a7ef-f1e3c1390ac6"
+            LastKnownName="GetEmployeeOptionalInfo"
+            LastKnownLocation="SSGS EMS Model.uml" />
+        </operation>
+      </receiveOperationEvent>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="5fd4c5df-56c3-42f8-bae5-6a454ec18a34"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent
+        Id="cf32c4e7-b367-4918-a9b3-15e91fcd749d"
+        name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <sendOperationEvent
+        Id="80ae6d3f-d2c0-4ae5-a286-741c36427d4a">
+        <operation>
+          <operationMoniker
+            Id="bab452de-5a60-4a5c-a69c-42227e81da92"
+            LastKnownName="GetOptionalEmployeeData"
+            LastKnownLocation="SSGS EMS Model.uml" />
+        </operation>
+      </sendOperationEvent>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <receiveOperationEvent
+        Id="3a46f790-f294-4665-a56f-50137444e7ac">
+        <operation>
+          <operationMoniker
+            Id="bab452de-5a60-4a5c-a69c-42227e81da92"
+            LastKnownName="GetOptionalEmployeeData"
+            LastKnownLocation="SSGS EMS Model.uml" />
+        </operation>
+      </receiveOperationEvent>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <activity
+        Id="1491cf33-3b4b-4c07-b508-59c6209d16f4"
+        name="Activity1"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false"
+        isReentrant="false"
+        isReadOnly="false"
+        isSingleExecution="false">
+        <nodes>
+          <initialNode
+            Id="32d01400-a03e-4e26-8a10-e46781cab467"
+            name="Initial1"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="a1ac1764-ce03-479f-b843-e4fddfb8dbd9"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="056d7f4b-58db-4483-b6f6-4f355ad9424a"
+                  LastKnownName="Action1"
+                  LastKnownLocation="SSGS EMS Model.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <opaqueAction
+            Id="056d7f4b-58db-4483-b6f6-4f355ad9424a"
+            name="Action1"
+            isLeaf="false" />
+        </nodes>
+      </activity>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <activity
+        Id="0ab0054e-a972-4dfb-930c-68f41184a80c"
+        name="SSGS EMS"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false"
+        isReentrant="false"
+        isReadOnly="false"
+        isSingleExecution="false">
+        <nodes>
+          <initialNode
+            Id="626a5e95-e444-47e7-9aad-54051859fe98"
+            name="Initial1"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="e88e7710-a0d8-4261-9e70-38e4241c717c"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="f8ffe07e-8f0f-497a-b508-22e99b84bc64"
+                  LastKnownName="Open Default Page"
+                  LastKnownLocation="SSGS EMS Model.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </initialNode>
+          <opaqueAction
+            Id="f8ffe07e-8f0f-497a-b508-22e99b84bc64"
+            name="Open Default Page"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="a587f7f3-a4d7-42c0-9a7c-9da3077527b5"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="9e032970-af87-4071-8543-3b3c6163d609"
+                  LastKnownName="Click on the link to open Show Employee Info page"
+                  LastKnownLocation="SSGS EMS Model.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="9e032970-af87-4071-8543-3b3c6163d609"
+            name="Click on the link to open Show Employee Info page"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="7f785f89-d7d8-46b6-a6ed-f34f7f8f3017"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="294a40bd-5192-405d-a65e-fae208134eb0"
+                  LastKnownName="Enter Employee ID and Click Get Info button"
+                  LastKnownLocation="SSGS EMS Model.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="294a40bd-5192-405d-a65e-fae208134eb0"
+            name="Enter Employee ID and Click Get Info button"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="5d6b2a10-b27b-423f-87eb-ab0641fa8dbe"
+                isLeaf="false">
+                <decisionNodeMoniker
+                  Id="e2101a8b-4422-48f2-a2d6-516493d861d2"
+                  LastKnownName="Need more information?"
+                  LastKnownLocation="SSGS EMS Model.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <decisionNode
+            Id="e2101a8b-4422-48f2-a2d6-516493d861d2"
+            name="Need more information?"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="959af1b1-0637-4087-b096-aabd516cc79c"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="f09594f6-2c4e-4830-bb4a-e69d6018b65f"
+                  LastKnownName="Get More Info"
+                  LastKnownLocation="SSGS EMS Model.uml" />
+              </controlFlow>
+              <controlFlow
+                Id="defea6e6-93d2-4efa-8d7d-ebf2b0fc8560"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="b28ba0b2-8889-4636-b05b-a34f30c83e81"
+                  LastKnownName="Edit Info"
+                  LastKnownLocation="SSGS EMS Model.uml" />
+              </controlFlow>
+              <controlFlow
+                Id="d6ff63d0-d189-4357-a54f-2f95cbda86f2"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="9773d0f3-e15d-460d-9e34-5d92c84e9415"
+                  LastKnownName="More Info Not Required"
+                  LastKnownLocation="SSGS EMS Model.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </decisionNode>
+          <opaqueAction
+            Id="f09594f6-2c4e-4830-bb4a-e69d6018b65f"
+            name="Get More Info"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="0c016b30-2614-41c9-b53c-8a96e60e31cb"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="d47a8979-86ab-427d-88aa-4d873db57d39"
+                  LastKnownName="Click button to get more info"
+                  LastKnownLocation="SSGS EMS Model.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="b28ba0b2-8889-4636-b05b-a34f30c83e81"
+            name="Edit Info"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="971d299e-2ad1-4d9f-bb7f-4cd909829a7e"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="fb904b84-f860-4567-b596-5756230aaa8d"
+                  LastKnownName="Login with HR Person's credentials"
+                  LastKnownLocation="SSGS EMS Model.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="9773d0f3-e15d-460d-9e34-5d92c84e9415"
+            name="More Info Not Required"
+            isLeaf="false">
+            <flowNodeTargets>
+              <controlFlow
+                Id="ba4609e0-873d-4351-8f72-a1952b45e4ab"
+                isLeaf="false">
+                <opaqueActionMoniker
+                  Id="5bc5c58a-acbf-4183-adbe-85c7b02d654f"
+                  LastKnownName="Close browser"
+                  LastKnownLocation="SSGS EMS Model.uml" />
+              </controlFlow>
+            </flowNodeTargets>
+          </opaqueAction>
+          <opaqueAction
+            Id="d47a8979-86ab-427d-88aa-4d873db57d39"
+            name="Click button to get more info"
+            isLeaf="false" />
+          <opaqueAction
+            Id="fb904b84-f860-4567-b596-5756230aaa8d"
+            name="Login with HR Person's credentials"
+            isLeaf="false" />
+          <opaqueAction
+            Id="5bc5c58a-acbf-4183-adbe-85c7b02d654f"
+            name="Close browser"
+            isLeaf="false" />
+        </nodes>
+      </activity>
+    </packageHasNamedElement>
+  </packagedElements>
+  <primitiveType
+    Id="220a3521-e091-4221-bae9-3ef9018e845c"
+    name="Integer"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+    name="Boolean"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+    name="String"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
+    name="UnlimitedNatural"
+    isAbstract="false"
+    isLeaf="false" />
+</modelStoreModel>

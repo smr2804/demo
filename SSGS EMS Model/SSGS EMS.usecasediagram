@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm10="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm11="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" dslVersion="1.0.0.0" Id="045a9333-e471-4a00-9ec5-5d341ae907be" name="SSGS EMS" linkedPackageId="6bf1f9cc-b809-4340-9b33-59ddd439315e" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <referencesInternal>
+    <reference Id="8c8c11ee-eea8-42ef-a4e2-bfbefb1a4cb7" handle="%ssgs-tfs2013\DefaultCollection#3534a156-72f9-4bef-92a7-55ab81b44e29$18%ssgs-lt10\DefaultCollection#26904c0d-ae83-4aa4-bc35-98595e2947c6$831" tag="Work Item Reference" />
+  </referencesInternal>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="e78d9708-003e-4f90-896e-8fb4bf22d948" name="Employee" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="32418b9b-d73f-4490-b32e-5e3c45556854" />
+        <targetEnds>
+          <association Id="e6197780-84b1-4d69-91eb-bb4dbafd6f8d" isDerived="false" sourceEndRoleName="Employee" targetEndRoleName="Views Details in the company records" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="9355324b-4df4-4896-a236-1956c26bd4fe" LastKnownName="Views Details in the company records" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a459081d-65b7-447a-b913-8b5f22961eb1" name="Employee" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="cbbd8172-88d2-4ac8-bb20-058c355b7bea" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="37d38774-d5bd-425d-ab33-7f1e1434602b" name="Views Details in the company records" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="5b8b786a-de45-4549-9871-1d79ba37149d" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="cecf7731-75c3-49a4-b69b-20b7e2092bd5" />
+          </association>
+          <association Id="6a63e08b-2613-43d3-a0a8-67aae2877b22" isDerived="false" sourceEndRoleName="Employee" targetEndRoleName="Sucessfully Authenticates" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="bc9ba7c4-f4c3-4b76-9729-c412dbe56a7d" LastKnownName="Sucessfully Authenticates" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="bb113036-9b40-463d-a5c0-feb098b4ec13" name="Employee" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="0b54f1fc-ab27-4ead-b4c0-d4e6235df01f" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="6976cf47-714e-4511-a8a7-3907aa9ff541" name="Sucessfully Authenticates" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="546f85aa-5a25-4b1d-b18e-3cef96475090" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="33d52664-abe7-4005-813d-9aa3cd7cb75f" />
+          </association>
+          <association Id="c56ef1fe-43d7-46c5-9a97-ed852a479706" isDerived="false" sourceEndRoleName="Employee" targetEndRoleName="Edits Own Profile" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="49bebd61-7e91-459d-92bb-d1d5bd7bd5b7" LastKnownName="Edits Own Profile" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="10025191-5da1-45b1-8280-c31200c5e238" name="Employee" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="5f946c9f-5f09-4c16-856f-442e46d5125b" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="b4eb5272-a7dc-4eba-b67e-454403453a25" name="Edits Own Profile" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="f2f2f8ab-0c26-410c-8fe1-2d7f92538c24" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="0b93d403-1509-4105-af65-9240d0b99fd3" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="79832bcc-e7d9-4431-b7f3-20ca0ea531bf" name="HR Person" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="bf55833d-4952-487a-ad2b-a98890536fb9" />
+        <targetEnds>
+          <association Id="d39d8ef8-3b54-4eba-b2ae-50e335aba967" isDerived="false" sourceEndRoleName="HR Person" targetEndRoleName="Adds an Employee" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="deb9efaf-3b0a-4e16-8469-5ec3d3ef5971" LastKnownName="Adds an Employee" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="94a78fef-3e01-42a9-b245-1367ad68f0cf" name="HR Person" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="9c2f7ae3-809b-48f5-858b-7ff5bcb4d1ad" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="9de5afa6-d746-4a54-9858-6c4f038e70b1" name="Adds an Employee" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="d4b5c87c-fa53-4a88-ab65-445a072db53d" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="98c14dd8-43ad-4490-b742-100696eea9a7" />
+          </association>
+          <association Id="642f25ad-f2fe-4c33-8ab6-d9ce29aea83e" isDerived="false" sourceEndRoleName="HR Person" targetEndRoleName="Sucessfully Authenticates" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="bc9ba7c4-f4c3-4b76-9729-c412dbe56a7d" LastKnownName="Sucessfully Authenticates" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="e8066ec8-8dc6-4fb7-b52e-71f44fd9b2ca" name="HR Person" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="1f4fabf8-9e1d-4e8f-9099-d898a15d1b43" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a21f1fa6-1598-4650-a422-fbe9e63a8e98" name="Sucessfully Authenticates" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="6fb253e1-dd91-48a4-90c6-970f8f17b6f5" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="79123725-2f44-4189-8d87-af95b2785c76" />
+          </association>
+          <association Id="0899a3d4-a2f3-42b3-aa86-718deb2e165c" isDerived="false" sourceEndRoleName="HR Person" targetEndRoleName="Edits Profile" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="583e6566-1e50-4b42-bf92-a7c331be4f92" LastKnownName="Edits Profile" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="3a38635f-7d97-48f0-b454-05b4bffeab93" name="HR Person" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="f9a69e2f-afbe-44f0-a3e1-ce2a75e349b9" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ba946fba-b7a4-45fa-8a07-bd3747d79455" name="Edits Profile" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="c8f793c7-1f01-4f85-a3ad-71eac3458954" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="0a9e253d-5467-4170-9269-5a445d4fc73a" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="deb9efaf-3b0a-4e16-8469-5ec3d3ef5971" name="Adds an Employee" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="042a114a-194c-4e0c-82c4-060c1e8f6d88" />
+        <suppliersInternal>
+          <dependency Id="83e38971-ca76-4772-8b64-1a9351459b88">
+            <useCaseMoniker Id="bc9ba7c4-f4c3-4b76-9729-c412dbe56a7d" LastKnownName="Sucessfully Authenticates" />
+            <elementDefinition Id="9362398f-8e8d-4c7e-8b94-b9a40dc68396" />
+          </dependency>
+        </suppliersInternal>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="9355324b-4df4-4896-a236-1956c26bd4fe" name="Views Details in the company records" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="ba3695ef-0e92-48cf-800c-402864a4f606" />
+        <suppliersInternal>
+          <dependency Id="25cc9a66-3ce9-4221-9480-6db9e5408f74">
+            <useCaseMoniker Id="bc9ba7c4-f4c3-4b76-9729-c412dbe56a7d" LastKnownName="Sucessfully Authenticates" />
+            <elementDefinition Id="923e88e5-5369-481b-9710-a372a93c1f8b" />
+          </dependency>
+        </suppliersInternal>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="bc9ba7c4-f4c3-4b76-9729-c412dbe56a7d" name="Sucessfully Authenticates" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="537ed7f0-ce59-45b6-949e-27311631f95a" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="49bebd61-7e91-459d-92bb-d1d5bd7bd5b7" name="Edits Own Profile" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="53cf442b-f94f-467e-8936-8a8312e8d1b1" />
+        <additions>
+          <include Id="5ed113ad-0151-4d2c-bd4a-8c562b78febc">
+            <useCaseMoniker Id="9355324b-4df4-4896-a236-1956c26bd4fe" LastKnownName="Views Details in the company records" />
+            <elementDefinition Id="fdf16969-cb60-4e1d-93fd-bb2967f0cf89" />
+          </include>
+        </additions>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="583e6566-1e50-4b42-bf92-a7c331be4f92" name="Edits Profile" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="81a1ded3-b2a0-4686-89fa-0065bdc3516c" />
+        <extendedCases>
+          <extend Id="11dfe40f-6f75-4a6a-b1e3-7403d00fa59f">
+            <useCaseMoniker Id="49bebd61-7e91-459d-92bb-d1d5bd7bd5b7" LastKnownName="Edits Own Profile" />
+            <elementDefinition Id="17daf8b2-4dd0-4155-9eed-b45fca801066" />
+          </extend>
+        </extendedCases>
+      </useCase>
+    </useCaseModelRootHasTypes>
+  </packagedElements>
+  <package Id="6bf1f9cc-b809-4340-9b33-59ddd439315e" name="SSGS EMS Model">
+    <elementDefinition Id="c80a8dc3-d62c-4872-97f1-4568d7dbfa8d" />
+    <profileInstances>
+      <packageHasProfileInstances Id="35c99c60-4fd4-4fe7-a6ab-41bb48215c27">
+        <profileInstance Id="436b044e-cd4d-43e4-be9e-6931d7806e8e" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="d14bfbf4-b884-4426-af3b-267f32a719a6">
+        <profileInstance Id="b22f31b5-1de6-44dd-91dd-10e8886b3f32" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</useCaseModelRoot>
