@@ -1,0 +1,3 @@
+﻿ALTER DATABASE [$(DatabaseName)]
+    ADD LOG FILE (NAME = [SSGS EMS Data_log], FILENAME = 'c:\Program Files\Microsoft SQL Server\MSSQL10.SQLEXPRESS\MSSQL\DATA\SSGS EMS Data_log.LDF', SIZE = 576 KB, MAXSIZE = 2097152 MB, FILEGROWTH = 10 %);
+

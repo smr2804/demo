@@ -1,0 +1,21 @@
+C:\SSGS EMS\SSGS EMS Scrum\SSGS EMS Data Access\bin\Debug\SSGS EMS Data Access.dll
+C:\SSGS EMS\SSGS EMS Scrum\SSGS EMS Data Access\bin\Debug\SSGS EMS Data Access.pdb
+C:\SSGS EMS\SSGS EMS Scrum\SSGS EMS Data Access\bin\Debug\SSGS EMS Entities.dll
+C:\SSGS EMS\SSGS EMS Scrum\SSGS EMS Data Access\bin\Debug\SSGS EMS Entities.pdb
+C:\SSGS EMS\SSGS EMS Scrum\SSGS EMS Data Access\obj\Debug\SSGS EMS Data Access.csprojResolveAssemblyReference.cache
+C:\SSGS EMS\SSGS EMS Scrum\SSGS EMS Data Access\obj\Debug\SSGS EMS Data Access.dll
+C:\SSGS EMS\SSGS EMS Scrum\SSGS EMS Data Access\obj\Debug\SSGS EMS Data Access.pdb
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\SSGS EMS\SSGS EMS Data Access\bin\Debug\SSGS EMS Data Access.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\SSGS EMS\SSGS EMS Data Access\bin\Debug\SSGS EMS Data Access.pdb
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\SSGS EMS\SSGS EMS Data Access\bin\Debug\SSGS EMS Entities.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\SSGS EMS\SSGS EMS Data Access\bin\Debug\SSGS EMS Entities.pdb
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\SSGS EMS\SSGS EMS Data Access\obj\Debug\SSGS EMS Data Access.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\SSGS EMS\SSGS EMS Data Access\obj\Debug\SSGS EMS Data Access.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\SSGS EMS\SSGS EMS Data Access\obj\Debug\SSGS EMS Data Access.pdb
+J:\Users\Subodh\Documents\Visual Studio 2017\Projects\SSGS EMS\SSGS EMS Data Access\bin\Debug\SSGS EMS Data Access.dll
+J:\Users\Subodh\Documents\Visual Studio 2017\Projects\SSGS EMS\SSGS EMS Data Access\bin\Debug\SSGS EMS Data Access.pdb
+J:\Users\Subodh\Documents\Visual Studio 2017\Projects\SSGS EMS\SSGS EMS Data Access\bin\Debug\SSGS EMS Entities.dll
+J:\Users\Subodh\Documents\Visual Studio 2017\Projects\SSGS EMS\SSGS EMS Data Access\bin\Debug\SSGS EMS Entities.pdb
+J:\Users\Subodh\Documents\Visual Studio 2017\Projects\SSGS EMS\SSGS EMS Data Access\obj\Debug\SSGS EMS Data Access.csprojResolveAssemblyReference.cache
+J:\Users\Subodh\Documents\Visual Studio 2017\Projects\SSGS EMS\SSGS EMS Data Access\obj\Debug\SSGS EMS Data Access.dll
+J:\Users\Subodh\Documents\Visual Studio 2017\Projects\SSGS EMS\SSGS EMS Data Access\obj\Debug\SSGS EMS Data Access.pdb

@@ -1,0 +1,27 @@
+C:\SSGS EMS\SSGS EMS Scrum\SSGS Employee Database Schema\sql\debug\SSGS Employee Database Schema.dacpac
+C:\SSGS EMS\SSGS EMS Scrum\SSGS Employee Database Schema\sql\debug\SSGS Employee Database Schema.dll
+C:\SSGS EMS\SSGS EMS Scrum\SSGS Employee Database Schema\sql\debug\SSGS Employee Database Schema.pdb
+C:\SSGS EMS\SSGS EMS Scrum\SSGS Employee Database Schema\obj\Debug\SSGS Employee Database Schema.dll
+C:\SSGS EMS\SSGS EMS Scrum\SSGS Employee Database Schema\obj\Debug\SSGS Employee Database Schema.pdb
+C:\SSGS EMS\SSGS EMS Scrum\SSGS Employee Database Schema\obj\Debug\Model.xml
+C:\SSGS EMS\SSGS EMS Scrum\SSGS Employee Database Schema\obj\Debug\refactor.xml
+C:\SSGS EMS\SSGS EMS Scrum\SSGS Employee Database Schema\obj\Debug\postdeploy.sql
+C:\SSGS EMS\SSGS EMS Scrum\SSGS Employee Database Schema\obj\Debug\predeploy.sql
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\SSGS EMS\SSGS Employee Database Schema\sql\debug\SSGS Employee Database Schema.dacpac
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\SSGS EMS\SSGS Employee Database Schema\sql\debug\SSGS Employee Database Schema.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\SSGS EMS\SSGS Employee Database Schema\sql\debug\SSGS Employee Database Schema.pdb
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\SSGS EMS\SSGS Employee Database Schema\obj\Debug\Model.xml
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\SSGS EMS\SSGS Employee Database Schema\obj\Debug\refactor.xml
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\SSGS EMS\SSGS Employee Database Schema\obj\Debug\postdeploy.sql
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\SSGS EMS\SSGS Employee Database Schema\obj\Debug\predeploy.sql
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\SSGS EMS\SSGS Employee Database Schema\obj\Debug\SSGS Employee Database Schema.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\SSGS EMS\SSGS Employee Database Schema\obj\Debug\SSGS Employee Database Schema.pdb
+J:\Users\Subodh\Documents\Visual Studio 2017\Projects\SSGS EMS\SSGS Employee Database Schema\sql\debug\SSGS Employee Database Schema.dacpac
+J:\Users\Subodh\Documents\Visual Studio 2017\Projects\SSGS EMS\SSGS Employee Database Schema\sql\debug\SSGS Employee Database Schema.dll
+J:\Users\Subodh\Documents\Visual Studio 2017\Projects\SSGS EMS\SSGS Employee Database Schema\sql\debug\SSGS Employee Database Schema.pdb
+J:\Users\Subodh\Documents\Visual Studio 2017\Projects\SSGS EMS\SSGS Employee Database Schema\obj\Debug\Model.xml
+J:\Users\Subodh\Documents\Visual Studio 2017\Projects\SSGS EMS\SSGS Employee Database Schema\obj\Debug\refactor.xml
+J:\Users\Subodh\Documents\Visual Studio 2017\Projects\SSGS EMS\SSGS Employee Database Schema\obj\Debug\postdeploy.sql
+J:\Users\Subodh\Documents\Visual Studio 2017\Projects\SSGS EMS\SSGS Employee Database Schema\obj\Debug\predeploy.sql
+J:\Users\Subodh\Documents\Visual Studio 2017\Projects\SSGS EMS\SSGS Employee Database Schema\obj\Debug\SSGS Employee Database Schema.dll
+J:\Users\Subodh\Documents\Visual Studio 2017\Projects\SSGS EMS\SSGS Employee Database Schema\obj\Debug\SSGS Employee Database Schema.pdb
