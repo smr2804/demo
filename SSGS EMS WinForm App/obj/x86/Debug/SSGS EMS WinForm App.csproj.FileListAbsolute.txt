@@ -1,0 +1,47 @@
+C:\SSGS EMS\SSGS EMS Scrum\SSGS EMS WinForm App\bin\Debug\SSGS EMS WinForm App.exe
+C:\SSGS EMS\SSGS EMS Scrum\SSGS EMS WinForm App\bin\Debug\SSGS EMS WinForm App.pdb
+C:\SSGS EMS\SSGS EMS Scrum\SSGS EMS WinForm App\bin\Debug\SSGS EMS Business Logic.dll
+C:\SSGS EMS\SSGS EMS Scrum\SSGS EMS WinForm App\bin\Debug\SSGS EMS Data Access.dll
+C:\SSGS EMS\SSGS EMS Scrum\SSGS EMS WinForm App\bin\Debug\SSGS EMS Entities.dll
+C:\SSGS EMS\SSGS EMS Scrum\SSGS EMS WinForm App\bin\Debug\SSGS EMS Business Logic.pdb
+C:\SSGS EMS\SSGS EMS Scrum\SSGS EMS WinForm App\bin\Debug\SSGS EMS Data Access.pdb
+C:\SSGS EMS\SSGS EMS Scrum\SSGS EMS WinForm App\bin\Debug\SSGS EMS Entities.pdb
+C:\SSGS EMS\SSGS EMS Scrum\SSGS EMS WinForm App\obj\x86\Debug\SSGS EMS WinForm App.csprojResolveAssemblyReference.cache
+C:\SSGS EMS\SSGS EMS Scrum\SSGS EMS WinForm App\obj\x86\Debug\SSGS_EMS_WinForm_App.Form1.resources
+C:\SSGS EMS\SSGS EMS Scrum\SSGS EMS WinForm App\obj\x86\Debug\SSGS_EMS_WinForm_App.Login.resources
+C:\SSGS EMS\SSGS EMS Scrum\SSGS EMS WinForm App\obj\x86\Debug\SSGS_EMS_WinForm_App.Properties.Resources.resources
+C:\SSGS EMS\SSGS EMS Scrum\SSGS EMS WinForm App\obj\x86\Debug\SSGS EMS WinForm App.csproj.GenerateResource.Cache
+C:\SSGS EMS\SSGS EMS Scrum\SSGS EMS WinForm App\obj\x86\Debug\SSGS EMS WinForm App.exe
+C:\SSGS EMS\SSGS EMS Scrum\SSGS EMS WinForm App\obj\x86\Debug\SSGS EMS WinForm App.pdb
+D:\Users\subod_001\Downloads\SSGS EMS Scrum\SSGS EMS WinForm App\obj\x86\Debug\SSGS EMS WinForm App.exe
+D:\Users\subod_001\Downloads\SSGS EMS Scrum\SSGS EMS WinForm App\obj\x86\Debug\SSGS EMS WinForm App.pdb
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\SSGS EMS\SSGS EMS WinForm App\bin\Debug\SSGS EMS WinForm App.exe
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\SSGS EMS\SSGS EMS WinForm App\bin\Debug\SSGS EMS WinForm App.pdb
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\SSGS EMS\SSGS EMS WinForm App\bin\Debug\SSGS EMS Business Logic.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\SSGS EMS\SSGS EMS WinForm App\bin\Debug\SSGS EMS Data Access.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\SSGS EMS\SSGS EMS WinForm App\bin\Debug\SSGS EMS Entities.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\SSGS EMS\SSGS EMS WinForm App\bin\Debug\SSGS EMS Business Logic.pdb
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\SSGS EMS\SSGS EMS WinForm App\bin\Debug\SSGS EMS Data Access.pdb
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\SSGS EMS\SSGS EMS WinForm App\bin\Debug\SSGS EMS Entities.pdb
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\SSGS EMS\SSGS EMS WinForm App\obj\x86\Debug\SSGS EMS WinForm App.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\SSGS EMS\SSGS EMS WinForm App\obj\x86\Debug\SSGS_EMS_WinForm_App.Form1.resources
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\SSGS EMS\SSGS EMS WinForm App\obj\x86\Debug\SSGS_EMS_WinForm_App.Login.resources
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\SSGS EMS\SSGS EMS WinForm App\obj\x86\Debug\SSGS_EMS_WinForm_App.Properties.Resources.resources
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\SSGS EMS\SSGS EMS WinForm App\obj\x86\Debug\SSGS EMS WinForm App.csproj.GenerateResource.Cache
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\SSGS EMS\SSGS EMS WinForm App\obj\x86\Debug\SSGS EMS WinForm App.exe
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\SSGS EMS\SSGS EMS WinForm App\obj\x86\Debug\SSGS EMS WinForm App.pdb
+J:\Users\Subodh\Documents\Visual Studio 2017\Projects\SSGS EMS\SSGS EMS WinForm App\bin\Debug\SSGS EMS WinForm App.exe
+J:\Users\Subodh\Documents\Visual Studio 2017\Projects\SSGS EMS\SSGS EMS WinForm App\bin\Debug\SSGS EMS WinForm App.pdb
+J:\Users\Subodh\Documents\Visual Studio 2017\Projects\SSGS EMS\SSGS EMS WinForm App\bin\Debug\SSGS EMS Business Logic.dll
+J:\Users\Subodh\Documents\Visual Studio 2017\Projects\SSGS EMS\SSGS EMS WinForm App\bin\Debug\SSGS EMS Data Access.dll
+J:\Users\Subodh\Documents\Visual Studio 2017\Projects\SSGS EMS\SSGS EMS WinForm App\bin\Debug\SSGS EMS Entities.dll
+J:\Users\Subodh\Documents\Visual Studio 2017\Projects\SSGS EMS\SSGS EMS WinForm App\bin\Debug\SSGS EMS Business Logic.pdb
+J:\Users\Subodh\Documents\Visual Studio 2017\Projects\SSGS EMS\SSGS EMS WinForm App\bin\Debug\SSGS EMS Data Access.pdb
+J:\Users\Subodh\Documents\Visual Studio 2017\Projects\SSGS EMS\SSGS EMS WinForm App\bin\Debug\SSGS EMS Entities.pdb
+J:\Users\Subodh\Documents\Visual Studio 2017\Projects\SSGS EMS\SSGS EMS WinForm App\obj\x86\Debug\SSGS EMS WinForm App.csprojResolveAssemblyReference.cache
+J:\Users\Subodh\Documents\Visual Studio 2017\Projects\SSGS EMS\SSGS EMS WinForm App\obj\x86\Debug\SSGS_EMS_WinForm_App.Form1.resources
+J:\Users\Subodh\Documents\Visual Studio 2017\Projects\SSGS EMS\SSGS EMS WinForm App\obj\x86\Debug\SSGS_EMS_WinForm_App.Login.resources
+J:\Users\Subodh\Documents\Visual Studio 2017\Projects\SSGS EMS\SSGS EMS WinForm App\obj\x86\Debug\SSGS_EMS_WinForm_App.Properties.Resources.resources
+J:\Users\Subodh\Documents\Visual Studio 2017\Projects\SSGS EMS\SSGS EMS WinForm App\obj\x86\Debug\SSGS EMS WinForm App.csproj.GenerateResource.Cache
+J:\Users\Subodh\Documents\Visual Studio 2017\Projects\SSGS EMS\SSGS EMS WinForm App\obj\x86\Debug\SSGS EMS WinForm App.exe
+J:\Users\Subodh\Documents\Visual Studio 2017\Projects\SSGS EMS\SSGS EMS WinForm App\obj\x86\Debug\SSGS EMS WinForm App.pdb
