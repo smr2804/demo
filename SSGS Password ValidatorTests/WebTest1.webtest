@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebTest Name="WebTest1" Id="4840e4a9-0c94-497b-8fa4-5b5698410b03" Owner="" Priority="2147483647" Enabled="True" CssProjectStructure="" CssIteration="" Timeout="0" WorkItemIds="" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010" Description="" CredentialUserName="" CredentialPassword="" PreAuthenticate="True" Proxy="default" StopOnError="False" RecordedResultFile="WebTest1.ae23f7d5-8799-48bb-bfca-d7107d5b5af1.rec.webtestresult" ResultsLocale="">
+  <Items>
+    <Request Method="GET" Guid="80d2a256-a1e3-4b36-8bc4-e234cf27db9a" Version="1.1" Url="http://ssgs-tfs2013:8085/" ThinkTime="5" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False" />
+    <Request Method="GET" Guid="997dc4f0-ae2c-40d4-acfc-bb32d0473e66" Version="1.1" Url="http://ssgs-tfs2013:8085/ShowEmployeeData.aspx" ThinkTime="8" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="http://ssgs-tfs2013:8085/Account/Login.aspx?ReturnUrl=%2fShowEmployeeData.aspx" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://ssgs-tfs2013:8085/" />
+      </Headers>
+      <ExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractHiddenFields, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="1" DisplayName="Extract Hidden Fields" Description="Extract all hidden fields from the response and place them into the test context.">
+          <RuleParameters>
+            <RuleParameter Name="Required" Value="True" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+          </RuleParameters>
+        </ExtractionRule>
+      </ExtractionRules>
+      <CorrelationExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractText, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="QueryStringParam1.ReturnUrl" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="StartsWith" Value="?ReturnUrl=" />
+            <RuleParameter Name="EndsWith" Value="&quot;" />
+            <RuleParameter Name="Index" Value="0" />
+            <RuleParameter Name="IgnoreCase" Value="False" />
+            <RuleParameter Name="UseRegularExpression" Value="False" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+          </RuleParameters>
+        </ExtractionRule>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractFormField, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam3.ctl00$MainContent$LoginButton" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="Name" Value="ctl00_MainContent_LoginButton" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+            <RuleParameter Name="Index" Value="0" />
+          </RuleParameters>
+        </ExtractionRule>
+      </CorrelationExtractionRules>
+    </Request>
+    <Request Method="POST" Guid="a59446f1-5175-4e68-8ba7-b1ba04adcbd4" Version="1.1" Url="http://ssgs-tfs2013:8085/Account/Login.aspx" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="http://ssgs-tfs2013:8085/ShowEmployeeData.aspx" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://ssgs-tfs2013:8085/Account/Login.aspx?ReturnUrl=%2fShowEmployeeData.aspx" />
+      </Headers>
+      <ExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractHiddenFields, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="1" DisplayName="Extract Hidden Fields" Description="Extract all hidden fields from the response and place them into the test context.">
+          <RuleParameters>
+            <RuleParameter Name="Required" Value="True" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+          </RuleParameters>
+        </ExtractionRule>
+      </ExtractionRules>
+      <CorrelationExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractFormField, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam2.ctl00$MainContent$Button1" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="Name" Value="ctl00_MainContent_Button1" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+            <RuleParameter Name="Index" Value="0" />
+          </RuleParameters>
+        </ExtractionRule>
+      </CorrelationExtractionRules>
+      <QueryStringParameters>
+        <QueryStringParameter Name="ReturnUrl" Value="%2fShowEmployeeData.aspx" RecordedValue="%2fShowEmployeeData.aspx" CorrelationBinding="{{QueryStringParam1.ReturnUrl}}" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+      <FormPostHttpBody>
+        <FormPostParameter Name="__EVENTTARGET" Value="{{$HIDDEN1.__EVENTTARGET}}" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="__EVENTARGUMENT" Value="{{$HIDDEN1.__EVENTARGUMENT}}" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="__VIEWSTATE" Value="{{$HIDDEN1.__VIEWSTATE}}" RecordedValue="/wEPDwUJMzgwMzU3OTc1ZBgBBR5fX0NvbnRyb2xzUmVxdWlyZVBvc3RCYWNrS2V5X18WAQUcY3RsMDAkTWFpbkNvbnRlbnQkUmVtZW1iZXJNZcQQeCDKKNMtuRTovauOhgkccIfrbcUFzNGwDhhKJXFB" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="__EVENTVALIDATION" Value="{{$HIDDEN1.__EVENTVALIDATION}}" RecordedValue="/wEdAAUS7EUhZHcGZT3RCr45xy7u/7WazomCT0sEHVkoZl6hRs+9P3s0w+MeGOPom7ExypAjUPYUqEvZcDmx6VonuQ/qaid11pIqvvafZK4b1ShSf0ZKVyvJdkb7BYObSM/U1Lp1eOboEXxGp+TpALvTkalh" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="ctl00$MainContent$UserName" Value="shalaka" RecordedValue="shalaka" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="ctl00$MainContent$Password" Value="shalaka" RecordedValue="shalaka" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="ctl00$MainContent$LoginButton" Value="Log In" RecordedValue="Log In" CorrelationBinding="{{FormPostParam3.ctl00$MainContent$LoginButton}}" UrlEncode="True" />
+      </FormPostHttpBody>
+    </Request>
+    <Request Method="POST" Guid="dd6e084d-b023-4ce7-90ba-c759a2e74990" Version="1.1" Url="http://ssgs-tfs2013:8085/ShowEmployeeData.aspx" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://ssgs-tfs2013:8085/ShowEmployeeData.aspx" />
+      </Headers>
+      <ExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractHiddenFields, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="1" DisplayName="Extract Hidden Fields" Description="Extract all hidden fields from the response and place them into the test context.">
+          <RuleParameters>
+            <RuleParameter Name="Required" Value="True" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+          </RuleParameters>
+        </ExtractionRule>
+      </ExtractionRules>
+      <CorrelationExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractFormField, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="FormPostParam1.ctl00$MainContent$Button2" DisplayName="" Description="">
+          <RuleParameters>
+            <RuleParameter Name="Name" Value="ctl00_MainContent_Button2" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+            <RuleParameter Name="Required" Value="False" />
+            <RuleParameter Name="Index" Value="0" />
+          </RuleParameters>
+        </ExtractionRule>
+      </CorrelationExtractionRules>
+      <FormPostHttpBody>
+        <FormPostParameter Name="__EVENTTARGET" Value="{{$HIDDEN1.__EVENTTARGET}}" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="__EVENTARGUMENT" Value="{{$HIDDEN1.__EVENTARGUMENT}}" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="__VIEWSTATE" Value="{{$HIDDEN1.__VIEWSTATE}}" RecordedValue="/wEPDwUJNzMyNDA3MTc3D2QWAmYPZBYCAgMPZBYCAgUPZBYCAgEPDxYCHgRUZXh0BQEzZGQYAgUeX19Db250cm9sc1JlcXVpcmVQb3N0QmFja0tleV9fFgIFKWN0bDAwJEhlYWRMb2dpblZpZXckSGVhZExvZ2luU3RhdHVzJGN0bDAxBSljdGwwMCRIZWFkTG9naW5WaWV3JEhlYWRMb2dpblN0YXR1cyRjdGwwMwUTY3RsMDAkSGVhZExvZ2luVmlldw8PZAIBZMlZ1IuFgsYlkWHGXQuE4sg7ZkFtkN1jblutka5xB0ut" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="__EVENTVALIDATION" Value="{{$HIDDEN1.__EVENTVALIDATION}}" RecordedValue="/wEdAAdiGlXv5hB4K7kqOxUbxpWlrZoI3sbP0zFx3NWEa8WVviFpchChcSzuXJPhejNDg4j53d8HLcsMPPSWw23i74K4IXJl3KFaETElbj8uBWd8N/ScKY2GuRjW48INNnND+33uFgBhSo0jnMlfGvVmOu0UOlmkulccn2VmWSIMbeSnmXg1RitYrOYoQlKlQNHNdmM=" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="ctl00$MainContent$Button1" Value="Get  Basic Data" RecordedValue="Get  Basic Data" CorrelationBinding="{{FormPostParam2.ctl00$MainContent$Button1}}" UrlEncode="True" />
+        <FormPostParameter Name="ctl00$MainContent$txtNewPwd" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="ctl00$MainContent$txtconfPwd" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+      </FormPostHttpBody>
+    </Request>
+    <Request Method="POST" Guid="3304f10d-1248-4741-bf26-1ba437ac099b" Version="1.1" Url="http://ssgs-tfs2013:8085/ShowEmployeeData.aspx" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://ssgs-tfs2013:8085/ShowEmployeeData.aspx" />
+      </Headers>
+      <ExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractHiddenFields, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="1" DisplayName="Extract Hidden Fields" Description="Extract all hidden fields from the response and place them into the test context.">
+          <RuleParameters>
+            <RuleParameter Name="Required" Value="True" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+          </RuleParameters>
+        </ExtractionRule>
+      </ExtractionRules>
+      <FormPostHttpBody>
+        <FormPostParameter Name="__EVENTTARGET" Value="{{$HIDDEN1.__EVENTTARGET}}" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="__EVENTARGUMENT" Value="{{$HIDDEN1.__EVENTARGUMENT}}" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="__VIEWSTATE" Value="{{$HIDDEN1.__VIEWSTATE}}" RecordedValue="/wEPDwUJNzMyNDA3MTc3D2QWAmYPZBYCAgMPZBYCAgUPZBYOAgEPDxYCHgRUZXh0BQEzZGQCBQ8PFgQfAAUTRmlyc3QgTmFtZTogU2hhbGFrYR4HVmlzaWJsZWdkZAIHDw8WBB8ABRJMYXN0IE5hbWU6IE5hd2F0aGUfAWdkZAIJDw8WBB8ABRREZXNpZ25hdGlvbjogTWFuYWdlch8BZ2RkAgsPDxYEHwAFDkRlcGFydG1lbnQ6IEhSHwFnZGQCDQ8PFgQfAAURUmVwb3J0cyB0bzogR291cmkfAWdkZAIPDw8WAh8BZ2RkGAIFHl9fQ29udHJvbHNSZXF1aXJlUG9zdEJhY2tLZXlfXxYCBSljdGwwMCRIZWFkTG9naW5WaWV3JEhlYWRMb2dpblN0YXR1cyRjdGwwMQUpY3RsMDAkSGVhZExvZ2luVmlldyRIZWFkTG9naW5TdGF0dXMkY3RsMDMFE2N0bDAwJEhlYWRMb2dpblZpZXcPD2QCAWRAKqECCCtPvZsA/62w991fKmjuZ4ptV8Xrsw1P0GIRtQ==" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="__EVENTVALIDATION" Value="{{$HIDDEN1.__EVENTVALIDATION}}" RecordedValue="/wEdAAg/0KrEKZxKFlDw9SazbhP2rZoI3sbP0zFx3NWEa8WVviFpchChcSzuXJPhejNDg4j53d8HLcsMPPSWw23i74K4LoqqxO3NaIrbb1NwiC+hOSFyZdyhWhExJW4/LgVnfDf0nCmNhrkY1uPCDTZzQ/t97hYAYUqNI5zJXxr1ZjrtFHyZw5T56qIdBFUCFZV52cUWTPaklwgyJN0dNAVAtqfD" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="ctl00$MainContent$Button2" Value="Get Extended Data" RecordedValue="Get Extended Data" CorrelationBinding="{{FormPostParam1.ctl00$MainContent$Button2}}" UrlEncode="True" />
+        <FormPostParameter Name="ctl00$MainContent$txtNewPwd" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="ctl00$MainContent$txtconfPwd" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+      </FormPostHttpBody>
+    </Request>
+    <Request Method="POST" Guid="842eba36-a0c6-42e1-baed-d0d8d79358db" Version="1.1" Url="http://ssgs-tfs2013:8085/ShowEmployeeData.aspx" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="http://ssgs-tfs2013:8085/" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://ssgs-tfs2013:8085/ShowEmployeeData.aspx" />
+      </Headers>
+      <FormPostHttpBody>
+        <FormPostParameter Name="__EVENTTARGET" Value="ctl00$HeadLoginView$HeadLoginStatus$ctl00" RecordedValue="ctl00$HeadLoginView$HeadLoginStatus$ctl00" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="__EVENTARGUMENT" Value="{{$HIDDEN1.__EVENTARGUMENT}}" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="__VIEWSTATE" Value="{{$HIDDEN1.__VIEWSTATE}}" RecordedValue="/wEPDwUJNzMyNDA3MTc3D2QWAmYPZBYCAgMPZBYCAgUPZBYUAgEPDxYCHgRUZXh0BQEzZGQCBQ8PFgQfAAUTRmlyc3QgTmFtZTogU2hhbGFrYR4HVmlzaWJsZWdkZAIHDw8WBB8ABRJMYXN0IE5hbWU6IE5hd2F0aGUfAWdkZAIJDw8WBB8ABRREZXNpZ25hdGlvbjogTWFuYWdlch8BZ2RkAgsPDxYEHwAFDkRlcGFydG1lbnQ6IEhSHwFnZGQCDQ8PFgQfAAURUmVwb3J0cyB0bzogR291cmkfAWdkZAIPDw8WAh8BZ2RkAhEPDxYEHwAFFUVkdWNhdGlvbmFsIEluZm86IE1CQR8BZ2RkAhMPDxYEHwAFFkZhbWlseSBEZXRhaWxzOiBzaW5nbGUfAWdkZAIVDw8WBB8ABRBIb2JiaWVzOiB0cmVraW5nHwFnZGQYAgUeX19Db250cm9sc1JlcXVpcmVQb3N0QmFja0tleV9fFgIFKWN0bDAwJEhlYWRMb2dpblZpZXckSGVhZExvZ2luU3RhdHVzJGN0bDAxBSljdGwwMCRIZWFkTG9naW5WaWV3JEhlYWRMb2dpblN0YXR1cyRjdGwwMwUTY3RsMDAkSGVhZExvZ2luVmlldw8PZAIBZNxDgjDv7aaiQDn0gblY783hJO8o02UBR/hSz/+le6d0" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="__EVENTVALIDATION" Value="{{$HIDDEN1.__EVENTVALIDATION}}" RecordedValue="/wEdAAh87Mn5F2LcpP8JVtAaX+yRrZoI3sbP0zFx3NWEa8WVviFpchChcSzuXJPhejNDg4j53d8HLcsMPPSWw23i74K4LoqqxO3NaIrbb1NwiC+hOSFyZdyhWhExJW4/LgVnfDf0nCmNhrkY1uPCDTZzQ/t97hYAYUqNI5zJXxr1ZjrtFP8Sr76jSeeAcr3FbUnIJ359m+DTkR/w/WOFgLqMnlc0" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="ctl00$MainContent$txtNewPwd" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="ctl00$MainContent$txtconfPwd" Value="" RecordedValue="" CorrelationBinding="" UrlEncode="True" />
+      </FormPostHttpBody>
+    </Request>
+  </Items>
+  <ValidationRules>
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidateResponseUrl, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Response URL" Description="Validates that the response URL after redirects are followed is the same as the recorded response URL.  QueryString parameters are ignored." Level="Low" ExectuionOrder="BeforeDependents" />
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidationRuleResponseTimeGoal, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Response Time Goal" Description="Validates that the response time for the request is less than or equal to the response time goal as specified on the request.  Response time goals of zero will be ignored." Level="Low" ExectuionOrder="AfterDependents">
+      <RuleParameters>
+        <RuleParameter Name="Tolerance" Value="0" />
+      </RuleParameters>
+    </ValidationRule>
+  </ValidationRules>
+</WebTest>
