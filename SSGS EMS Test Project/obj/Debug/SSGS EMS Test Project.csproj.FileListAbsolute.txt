@@ -1,0 +1,13 @@
+C:\SSGS EMS\SSGS EMS Scrum\SSGS EMS Test Project\bin\Debug\LoadTest1.loadtest
+C:\SSGS EMS\SSGS EMS Scrum\SSGS EMS Test Project\bin\Debug\WebTest2.webtest
+C:\SSGS EMS\SSGS EMS Scrum\SSGS EMS Test Project\bin\Debug\SSGS EMS Test Project.dll
+C:\SSGS EMS\SSGS EMS Scrum\SSGS EMS Test Project\bin\Debug\SSGS EMS Test Project.pdb
+C:\SSGS EMS\SSGS EMS Scrum\SSGS EMS Test Project\bin\Debug\SSGS EMS Data Access.dll
+C:\SSGS EMS\SSGS EMS Scrum\SSGS EMS Test Project\bin\Debug\SSGS EMS Entities.dll
+C:\SSGS EMS\SSGS EMS Scrum\SSGS EMS Test Project\bin\Debug\SSGS Password Validator.dll
+C:\SSGS EMS\SSGS EMS Scrum\SSGS EMS Test Project\bin\Debug\SSGS EMS Data Access.pdb
+C:\SSGS EMS\SSGS EMS Scrum\SSGS EMS Test Project\bin\Debug\SSGS EMS Entities.pdb
+C:\SSGS EMS\SSGS EMS Scrum\SSGS EMS Test Project\bin\Debug\SSGS Password Validator.pdb
+C:\SSGS EMS\SSGS EMS Scrum\SSGS EMS Test Project\obj\Debug\SSGS EMS Test Project.csprojResolveAssemblyReference.cache
+C:\SSGS EMS\SSGS EMS Scrum\SSGS EMS Test Project\obj\Debug\SSGS EMS Test Project.dll
+C:\SSGS EMS\SSGS EMS Scrum\SSGS EMS Test Project\obj\Debug\SSGS EMS Test Project.pdb

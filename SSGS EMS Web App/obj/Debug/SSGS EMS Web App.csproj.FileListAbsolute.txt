@@ -1,0 +1,28 @@
+C:\SSGS EMS\SSGS EMS Scrum\SSGS EMS Web App\bin\SSGS EMS Web App.dll.config
+C:\SSGS EMS\SSGS EMS Scrum\SSGS EMS Web App\bin\SSGS EMS Web App.dll
+C:\SSGS EMS\SSGS EMS Scrum\SSGS EMS Web App\bin\SSGS EMS Web App.pdb
+C:\SSGS EMS\SSGS EMS Scrum\SSGS EMS Web App\bin\SSGS EMS Business Logic.dll
+C:\SSGS EMS\SSGS EMS Scrum\SSGS EMS Web App\bin\SSGS EMS Data Access.dll
+C:\SSGS EMS\SSGS EMS Scrum\SSGS EMS Web App\bin\SSGS EMS Entities.dll
+C:\SSGS EMS\SSGS EMS Scrum\SSGS EMS Web App\bin\SSGS Password Validator.dll
+C:\SSGS EMS\SSGS EMS Scrum\SSGS EMS Web App\bin\SSGS Password Validator.pdb
+C:\SSGS EMS\SSGS EMS Scrum\SSGS EMS Web App\bin\SSGS EMS Business Logic.pdb
+C:\SSGS EMS\SSGS EMS Scrum\SSGS EMS Web App\bin\SSGS EMS Data Access.pdb
+C:\SSGS EMS\SSGS EMS Scrum\SSGS EMS Web App\bin\SSGS EMS Entities.pdb
+C:\SSGS EMS\SSGS EMS Scrum\SSGS EMS Web App\obj\Debug\SSGS EMS Web App.csprojResolveAssemblyReference.cache
+C:\SSGS EMS\SSGS EMS Scrum\SSGS EMS Web App\obj\Debug\SSGS EMS Web App.dll
+C:\SSGS EMS\SSGS EMS Scrum\SSGS EMS Web App\obj\Debug\SSGS EMS Web App.pdb
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\SSGS EMS\SSGS EMS Web App\bin\SSGS EMS Web App.dll.config
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\SSGS EMS\SSGS EMS Web App\bin\SSGS EMS Web App.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\SSGS EMS\SSGS EMS Web App\bin\SSGS EMS Web App.pdb
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\SSGS EMS\SSGS EMS Web App\bin\SSGS EMS Business Logic.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\SSGS EMS\SSGS EMS Web App\bin\SSGS EMS Data Access.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\SSGS EMS\SSGS EMS Web App\bin\SSGS EMS Entities.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\SSGS EMS\SSGS EMS Web App\bin\SSGS Password Validator.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\SSGS EMS\SSGS EMS Web App\bin\SSGS Password Validator.pdb
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\SSGS EMS\SSGS EMS Web App\bin\SSGS EMS Business Logic.pdb
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\SSGS EMS\SSGS EMS Web App\bin\SSGS EMS Data Access.pdb
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\SSGS EMS\SSGS EMS Web App\bin\SSGS EMS Entities.pdb
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\SSGS EMS\SSGS EMS Web App\obj\Debug\SSGS EMS Web App.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\SSGS EMS\SSGS EMS Web App\obj\Debug\SSGS EMS Web App.dll
+C:\Users\Administrator\Documents\Visual Studio 2015\Projects\SSGS EMS\SSGS EMS Web App\obj\Debug\SSGS EMS Web App.pdb
