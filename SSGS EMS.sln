@@ -1,0 +1,174 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3F2A963A-7872-4233-9195-6754F452AA80}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "SSGS EMS Model", "SSGS EMS Model\SSGS EMS Model.modelproj", "{5D13BF95-65F4-4397-B148-AD106D49FCA4}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "SSGS Employee Database Schema", "SSGS Employee Database Schema\SSGS Employee Database Schema.sqlproj", "{76BE284D-B717-4089-A8BE-095B974EE538}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SSGS EMS Business Logic", "SSGS EMS Business Logic\SSGS EMS Business Logic.csproj", "{24F2EA3B-5F70-409E-B668-E4C5756BB7BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SSGS EMS Data Access", "SSGS EMS Data Access\SSGS EMS Data Access.csproj", "{D63E3BF3-CCDA-4FDC-8E9C-1D8E44D4E7C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SSGS EMS Entities", "SSGS EMS Entities\SSGS EMS Entities.csproj", "{3FF66CF3-A9BC-4506-AE11-FF2CF3E9F389}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SSGS Password Validator", "SSGS Password Validator\SSGS Password Validator.csproj", "{6AF20089-03B5-40FA-8443-B254C91CD87C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SSGS EMS Web App", "SSGS EMS Web App\SSGS EMS Web App.csproj", "{E561653A-CBB7-4D06-8A0D-825F35E54903}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SSGS EMS WinForm App", "SSGS EMS WinForm App\SSGS EMS WinForm App.csproj", "{65E49924-37E9-4FD7-B1BB-D8302964EE98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SSGS Password ValidatorTests", "SSGS Password ValidatorTests\SSGS Password ValidatorTests.csproj", "{027A622B-E678-4440-AA0E-27EF712315F3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5D13BF95-65F4-4397-B148-AD106D49FCA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D13BF95-65F4-4397-B148-AD106D49FCA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D13BF95-65F4-4397-B148-AD106D49FCA4}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{5D13BF95-65F4-4397-B148-AD106D49FCA4}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{5D13BF95-65F4-4397-B148-AD106D49FCA4}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5D13BF95-65F4-4397-B148-AD106D49FCA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D13BF95-65F4-4397-B148-AD106D49FCA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D13BF95-65F4-4397-B148-AD106D49FCA4}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{5D13BF95-65F4-4397-B148-AD106D49FCA4}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{5D13BF95-65F4-4397-B148-AD106D49FCA4}.Release|x86.ActiveCfg = Release|Any CPU
+		{76BE284D-B717-4089-A8BE-095B974EE538}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76BE284D-B717-4089-A8BE-095B974EE538}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76BE284D-B717-4089-A8BE-095B974EE538}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{76BE284D-B717-4089-A8BE-095B974EE538}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{76BE284D-B717-4089-A8BE-095B974EE538}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{76BE284D-B717-4089-A8BE-095B974EE538}.Debug|Mixed Platforms.Deploy.0 = Debug|Any CPU
+		{76BE284D-B717-4089-A8BE-095B974EE538}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{76BE284D-B717-4089-A8BE-095B974EE538}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76BE284D-B717-4089-A8BE-095B974EE538}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76BE284D-B717-4089-A8BE-095B974EE538}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{76BE284D-B717-4089-A8BE-095B974EE538}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{76BE284D-B717-4089-A8BE-095B974EE538}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{76BE284D-B717-4089-A8BE-095B974EE538}.Release|Mixed Platforms.Deploy.0 = Release|Any CPU
+		{76BE284D-B717-4089-A8BE-095B974EE538}.Release|x86.ActiveCfg = Release|Any CPU
+		{24F2EA3B-5F70-409E-B668-E4C5756BB7BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24F2EA3B-5F70-409E-B668-E4C5756BB7BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24F2EA3B-5F70-409E-B668-E4C5756BB7BB}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{24F2EA3B-5F70-409E-B668-E4C5756BB7BB}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{24F2EA3B-5F70-409E-B668-E4C5756BB7BB}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{24F2EA3B-5F70-409E-B668-E4C5756BB7BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24F2EA3B-5F70-409E-B668-E4C5756BB7BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24F2EA3B-5F70-409E-B668-E4C5756BB7BB}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{24F2EA3B-5F70-409E-B668-E4C5756BB7BB}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{24F2EA3B-5F70-409E-B668-E4C5756BB7BB}.Release|x86.ActiveCfg = Release|Any CPU
+		{D63E3BF3-CCDA-4FDC-8E9C-1D8E44D4E7C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D63E3BF3-CCDA-4FDC-8E9C-1D8E44D4E7C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D63E3BF3-CCDA-4FDC-8E9C-1D8E44D4E7C0}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{D63E3BF3-CCDA-4FDC-8E9C-1D8E44D4E7C0}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{D63E3BF3-CCDA-4FDC-8E9C-1D8E44D4E7C0}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D63E3BF3-CCDA-4FDC-8E9C-1D8E44D4E7C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D63E3BF3-CCDA-4FDC-8E9C-1D8E44D4E7C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D63E3BF3-CCDA-4FDC-8E9C-1D8E44D4E7C0}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{D63E3BF3-CCDA-4FDC-8E9C-1D8E44D4E7C0}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{D63E3BF3-CCDA-4FDC-8E9C-1D8E44D4E7C0}.Release|x86.ActiveCfg = Release|Any CPU
+		{3FF66CF3-A9BC-4506-AE11-FF2CF3E9F389}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FF66CF3-A9BC-4506-AE11-FF2CF3E9F389}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FF66CF3-A9BC-4506-AE11-FF2CF3E9F389}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{3FF66CF3-A9BC-4506-AE11-FF2CF3E9F389}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{3FF66CF3-A9BC-4506-AE11-FF2CF3E9F389}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3FF66CF3-A9BC-4506-AE11-FF2CF3E9F389}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FF66CF3-A9BC-4506-AE11-FF2CF3E9F389}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FF66CF3-A9BC-4506-AE11-FF2CF3E9F389}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{3FF66CF3-A9BC-4506-AE11-FF2CF3E9F389}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{3FF66CF3-A9BC-4506-AE11-FF2CF3E9F389}.Release|x86.ActiveCfg = Release|Any CPU
+		{6AF20089-03B5-40FA-8443-B254C91CD87C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AF20089-03B5-40FA-8443-B254C91CD87C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AF20089-03B5-40FA-8443-B254C91CD87C}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{6AF20089-03B5-40FA-8443-B254C91CD87C}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{6AF20089-03B5-40FA-8443-B254C91CD87C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{6AF20089-03B5-40FA-8443-B254C91CD87C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AF20089-03B5-40FA-8443-B254C91CD87C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AF20089-03B5-40FA-8443-B254C91CD87C}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{6AF20089-03B5-40FA-8443-B254C91CD87C}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{6AF20089-03B5-40FA-8443-B254C91CD87C}.Release|x86.ActiveCfg = Release|Any CPU
+		{E561653A-CBB7-4D06-8A0D-825F35E54903}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E561653A-CBB7-4D06-8A0D-825F35E54903}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E561653A-CBB7-4D06-8A0D-825F35E54903}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{E561653A-CBB7-4D06-8A0D-825F35E54903}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{E561653A-CBB7-4D06-8A0D-825F35E54903}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E561653A-CBB7-4D06-8A0D-825F35E54903}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E561653A-CBB7-4D06-8A0D-825F35E54903}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E561653A-CBB7-4D06-8A0D-825F35E54903}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{E561653A-CBB7-4D06-8A0D-825F35E54903}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{E561653A-CBB7-4D06-8A0D-825F35E54903}.Release|x86.ActiveCfg = Release|Any CPU
+		{65E49924-37E9-4FD7-B1BB-D8302964EE98}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{65E49924-37E9-4FD7-B1BB-D8302964EE98}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{65E49924-37E9-4FD7-B1BB-D8302964EE98}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{65E49924-37E9-4FD7-B1BB-D8302964EE98}.Debug|x86.ActiveCfg = Debug|x86
+		{65E49924-37E9-4FD7-B1BB-D8302964EE98}.Debug|x86.Build.0 = Debug|x86
+		{65E49924-37E9-4FD7-B1BB-D8302964EE98}.Release|Any CPU.ActiveCfg = Release|x86
+		{65E49924-37E9-4FD7-B1BB-D8302964EE98}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{65E49924-37E9-4FD7-B1BB-D8302964EE98}.Release|Mixed Platforms.Build.0 = Release|x86
+		{65E49924-37E9-4FD7-B1BB-D8302964EE98}.Release|x86.ActiveCfg = Release|x86
+		{65E49924-37E9-4FD7-B1BB-D8302964EE98}.Release|x86.Build.0 = Release|x86
+		{027A622B-E678-4440-AA0E-27EF712315F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{027A622B-E678-4440-AA0E-27EF712315F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{027A622B-E678-4440-AA0E-27EF712315F3}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{027A622B-E678-4440-AA0E-27EF712315F3}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{027A622B-E678-4440-AA0E-27EF712315F3}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{027A622B-E678-4440-AA0E-27EF712315F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{027A622B-E678-4440-AA0E-27EF712315F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{027A622B-E678-4440-AA0E-27EF712315F3}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{027A622B-E678-4440-AA0E-27EF712315F3}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{027A622B-E678-4440-AA0E-27EF712315F3}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 10
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://ssgs-tfs2015:8080/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = SSGS\u0020Employee\u0020Database\u0020Schema\\SSGS\u0020Employee\u0020Database\u0020Schema.sqlproj
+		SccProjectName1 = SSGS\u0020Employee\u0020Database\u0020Schema
+		SccLocalPath1 = SSGS\u0020Employee\u0020Database\u0020Schema
+		SccProjectUniqueName2 = SSGS\u0020EMS\u0020Business\u0020Logic\\SSGS\u0020EMS\u0020Business\u0020Logic.csproj
+		SccProjectName2 = SSGS\u0020EMS\u0020Business\u0020Logic
+		SccLocalPath2 = SSGS\u0020EMS\u0020Business\u0020Logic
+		SccProjectUniqueName3 = SSGS\u0020EMS\u0020Data\u0020Access\\SSGS\u0020EMS\u0020Data\u0020Access.csproj
+		SccProjectName3 = SSGS\u0020EMS\u0020Data\u0020Access
+		SccLocalPath3 = SSGS\u0020EMS\u0020Data\u0020Access
+		SccProjectUniqueName4 = SSGS\u0020EMS\u0020Entities\\SSGS\u0020EMS\u0020Entities.csproj
+		SccProjectName4 = SSGS\u0020EMS\u0020Entities
+		SccLocalPath4 = SSGS\u0020EMS\u0020Entities
+		SccProjectUniqueName5 = SSGS\u0020EMS\u0020Model\\SSGS\u0020EMS\u0020Model.modelproj
+		SccProjectName5 = SSGS\u0020EMS\u0020Model
+		SccLocalPath5 = SSGS\u0020EMS\u0020Model
+		SccProjectUniqueName6 = SSGS\u0020EMS\u0020Web\u0020App\\SSGS\u0020EMS\u0020Web\u0020App.csproj
+		SccProjectName6 = SSGS\u0020EMS\u0020Web\u0020App
+		SccLocalPath6 = SSGS\u0020EMS\u0020Web\u0020App
+		SccProjectUniqueName7 = SSGS\u0020EMS\u0020WinForm\u0020App\\SSGS\u0020EMS\u0020WinForm\u0020App.csproj
+		SccProjectName7 = SSGS\u0020EMS\u0020WinForm\u0020App
+		SccLocalPath7 = SSGS\u0020EMS\u0020WinForm\u0020App
+		SccProjectUniqueName8 = SSGS\u0020Password\u0020Validator\\SSGS\u0020Password\u0020Validator.csproj
+		SccProjectName8 = SSGS\u0020Password\u0020Validator
+		SccLocalPath8 = SSGS\u0020Password\u0020Validator
+		SccProjectUniqueName9 = SSGS\u0020Password\u0020ValidatorTests\\SSGS\u0020Password\u0020ValidatorTests.csproj
+		SccProjectName9 = SSGS\u0020Password\u0020ValidatorTests
+		SccLocalPath9 = SSGS\u0020Password\u0020ValidatorTests
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = SSGS EMS.vsmdi
+	EndGlobalSection
+EndGlobal
